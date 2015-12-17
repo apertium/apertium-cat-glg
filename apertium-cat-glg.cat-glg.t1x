@@ -9531,6 +9531,14 @@
 			<pattern-item n="prnenc"/>
 		</pattern>
 		<action>
+                <choose>
+                  <when>
+                    <test><and><equal><clip pos="1" side="tl" part="temps"/><lit-tag v="imp"/></equal>
+                               <or><equal><clip pos="1" side="tl" part="persona"/><lit-tag v="p1"/></equal>
+                                   <equal><clip pos="1" side="tl" part="persona"/><lit-tag v="p3"/></equal></or></and></test>
+                    <let><clip pos="1" side="tl" part="temps"/><lit-tag v="prs"/></let>
+                  </when>
+                </choose>
 			<call-macro n="f_outverb2">
 				<with-param pos="1"/>
 				<with-param pos="2"/>

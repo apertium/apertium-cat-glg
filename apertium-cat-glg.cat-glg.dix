@@ -221,6 +221,8 @@
 
       <e r="LR"><p><l>hi<s n="prn"/><s n="enc"/><s n="adv"/></l><r></r></p></e>
       <e r="LR"><p><l>hi<s n="prn"/><s n="pro"/><s n="adv"/></l><r></r></p></e>
+      <e r="LR"><p><l>en<s n="prn"/><s n="enc"/><s n="adv"/></l><r></r></p></e>
+      <e r="LR"><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r></r></p></e>
 
 
       <e><p><l>què<s n="prn"/><s n="itg"/><s n="mf"/></l><r>que<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
