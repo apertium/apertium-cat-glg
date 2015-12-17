@@ -224,6 +224,7 @@
 
 
       <e><p><l>què<s n="prn"/><s n="itg"/><s n="mf"/></l><r>que<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
+      <e><p><l>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>quen<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
 
 
       <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -231,7 +232,9 @@
       <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
       <e><p><l>es<s n="prn"/><s n="pro"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
 
@@ -242,9 +245,6 @@
       <e r="LR"><p><l>quin<s n="prn"/><s n="itg"/><s n="m"/></l><r>cal<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
       <e r="LR"><p><l>quin<s n="prn"/><s n="itg"/><s n="f"/></l><r>cal<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
       <e r="RL"><p><l>quin<s n="prn"/><s n="itg"/><s n="GD"/></l><r>cal<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
-
-      <e><p><l>qui<s n="prn"/><s n="itg"/></l><r>quen<s n="prn"/><s n="itg"/></r></p></e>
-      <e><p><l>qui<s n="prn"/><s n="itg"/></l><r>quen<s n="prn"/><s n="itg"/></r></p></e>
 
       <e><p><l>res<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nada<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 
@@ -285,13 +285,13 @@
 
       <!-- SECTION: Numerals -->
 
-      <e><p><l>u<s n="num"/></l><r>un<s n="num"/></r></p></e>
-      <e><p><l>dos<s n="num"/></l><r>duos<s n="num"/></r></p></e>
+      <e><p><l>u<s n="num"/><s n="m"/><s n="sp"/></l><r>un<s n="num"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>dos<s n="num"/></l><r>dous<s n="num"/></r></p></e>
       <e><p><l>catorze<s n="num"/></l><r>catorce<s n="num"/></r></p></e>
       <e><p><l>cent<s n="num"/></l><r>cen<s n="num"/></r></p></e>
       <e><p><l>cent<s n="num"/></l><r>cento<s n="num"/></r></p></e>
-      <e><p><l>cinc-cents<s n="num"/></l><r>cincocentos<s n="num"/></r></p></e>
-      <e><p><l>cinc-cents<s n="num"/></l><r>quiñentos<s n="num"/></r></p></e>
+      <!--<e><p><l>cinc-cents<s n="num"/></l><r>cincocentos<s n="num"/></r></p></e>-->
+      <!--<e><p><l>cinc-cents<s n="num"/></l><r>quiñentos<s n="num"/></r></p></e>-->
       <e><p><l>cinc<s n="num"/></l><r>cinco<s n="num"/></r></p></e>
       <e><p><l>cinquanta<s n="num"/></l><r>cincuenta<s n="num"/></r></p></e>
       <e><p><l>dènou<s n="num"/></l><r>dezanove<s n="num"/></r></p></e>
@@ -305,7 +305,7 @@
       <e><p><l>dotze<s n="num"/></l><r>doce<s n="num"/></r></p></e>
       <e><p><l>huitanta<s n="num"/></l><r>oitenta<s n="num"/></r></p></e>
       <e><p><l>huit<s n="num"/></l><r>oito<s n="num"/></r></p></e>
-      <e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p></e>
+      <e><p><l>mil<s n="num"/><s n="mf"/><s n="pl"/></l><r>mil<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>noranta<s n="num"/></l><r>noventa<s n="num"/></r></p></e>
       <e><p><l>nou-cents<s n="num"/></l><r>novecentos<s n="num"/></r></p></e>
       <e><p><l>nou<s n="num"/></l><r>nove<s n="num"/></r></p></e>
@@ -326,7 +326,7 @@
       <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
       <e><p><l>tretze<s n="num"/></l><r>trece<s n="num"/></r></p></e>
       <e><p><l>vint-i-cinc<s n="num"/></l><r>vinte<b/>e<b/>cinco<s n="num"/></r></p></e>
-      <e><p><l>vint-i-dos<s n="num"/></l><r>vinte<b/>e<b/>dous<s n="num"/></r></p></e>
+      <!--<e><p><l>vint-i-dos<s n="num"/></l><r>vinte<b/>e<b/>dous<s n="num"/></r></p></e>-->
       <e><p><l>vint-i-nou<s n="num"/></l><r>vinte<b/>e<b/>nove<s n="num"/></r></p></e>
       <e><p><l>vint-i-quatre<s n="num"/></l><r>vinte<b/>e<b/>catro<s n="num"/></r></p></e>
       <e><p><l>vint-i-set<s n="num"/></l><r>vinte<b/>e<b/>sete<s n="num"/></r></p></e>
@@ -337,7 +337,8 @@
       <e><p><l>vuitanta<s n="num"/></l><r>oitenta<s n="num"/></r></p></e>
       <e><p><l>vuit-cents<s n="num"/></l><r>oitocentos<s n="num"/></r></p></e>
       <e><p><l>vuit<s n="num"/></l><r>oito<s n="num"/></r></p></e>
-      <e><p><l>zero<s n="num"/></l><r>cero<s n="num"/></r></p></e>
+      <e><p><l>zero<s n="num"/><s n="m"/><s n="sp"/></l><r>cero<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>zero<s n="num"/><s n="m"/><s n="pl"/></l><r>cero<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
   
 
       <!-- SECTION: Nouns  -->
@@ -11036,7 +11037,6 @@
       <e><p><l>Rob<s n="np"/><s n="ant"/></l><r>Rob<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Rodríguez<s n="np"/><s n="ant"/></l><r>Rodríguez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Roger<s n="np"/><s n="ant"/></l><r>Roger<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Romania<s n="np"/><s n="loc"/></l><r>Romania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Romania<s n="np"/><s n="loc"/></l><r>Romanía<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Roma<s n="np"/><s n="loc"/></l><r>Roma<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Roosevelt<s n="np"/><s n="ant"/></l><r>Roosevelt<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
