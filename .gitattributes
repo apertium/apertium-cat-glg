@@ -16,6 +16,11 @@
 /apertium-cat-glg.glg-cat.t3x -text
 /autogen.sh -text
 /configure.ac -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.cat-glg.txt -text
+dev/testvoc/testvoc-summary.glg-cat.txt -text
+dev/testvoc/testvoc.sh -text
 /modes.xml -text
 t/README.org -text
 t/config.sh -text

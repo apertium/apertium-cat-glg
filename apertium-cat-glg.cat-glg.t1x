@@ -12,6 +12,7 @@
 		
 		<def-cat n="nploc">
 			<cat-item tags="np.loc"/>
+			<cat-item tags="np.loc.*"/>
 		</def-cat>
 		
 		<def-cat n="np">
@@ -4316,7 +4317,7 @@
 			<out>
 				<lu>
 					<get-case-from pos="1" >
-						<lit v="em"/>
+						<lit v="en"/>
 					</get-case-from>
 					<lit-tag v="pr"/>
 				</lu>
@@ -4358,7 +4359,7 @@
 			<out>
 				<lu>
 					<get-case-from pos="1" >
-						<lit v="em"/>
+						<lit v="en"/>
 					</get-case-from>
 					<lit-tag v="pr"/>
 				</lu>
@@ -4408,7 +4409,7 @@
 			<out>
 				<lu>
 					<get-case-from pos="1" >
-						<lit v="em"/>
+						<lit v="en"/>
 					</get-case-from>
 					<lit-tag v="pr"/>
 				</lu>
@@ -5029,36 +5030,7 @@
 			</out>
 		</action>
 	</rule>
-	
-	<rule> <!--REGLA:fA dies -> há dias -->
-		<pattern>
-			<pattern-item n="fa"/>
-			<pattern-item n="nomtempo"/>
-		</pattern>
-		<action>
-			<call-macro n="f_concord1">
-				<with-param pos="2"/>
-			</call-macro>
-			<out>
-				<lu>
-					<get-case-from pos="1" >
-						<lit v="há"/>
-					</get-case-from>
-					<clip pos="1" side="tl" part="a_verb"/>	
-					<clip pos="1" side="tl" part="temps"/>	
-					<clip pos="1" side="tl" part="persona"/>	
-					<clip pos="1" side="tl" part="nbr"/>	
-				</lu>
-			</out>
-			<out>
-				<b pos="1"/>
-				<lu>
-					<clip pos="2" side="tl" part="whole"/>
-				</lu> 
-			</out>
-		</action>
-	</rule>
-	
+
 	<rule> <!--REGLA:fA dies -> há dias -->
 		<pattern>
 			<pattern-item n="fa"/>
@@ -10731,14 +10703,13 @@
 			<out>
 				<lu>
 					<get-case-from pos="1">
-						<lit v="em"/>
+						<lit v="en"/>
 					</get-case-from>
 					<clip pos="1" side="tl" part="a_prep"/>
 				</lu> 
 				<b pos="1"/>
 				<lu>
-					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_nploc"/> 
+					<clip pos="2" side="tl" part="whole"/>
 				</lu>
 			</out>
 		</action>
@@ -10762,7 +10733,7 @@
 					<let>
 						<clip pos="2" side="tl" part="lem"/>
 						<get-case-from pos="2"> 
-							<lit v="em"/>
+							<lit v="en"/>
 						</get-case-from>
 					</let>
 				</when>
@@ -10803,7 +10774,7 @@
 					<let>
 						<clip pos="3" side="tl" part="lem"/>
 						<get-case-from pos="3"> <!--Atenciï¿½: mai no traduirï¿½ EN sinï¿½ només En o en !!  -->
-							<lit v="em"/>
+							<lit v="en"/>
 						</get-case-from>
 					</let>
 				</when>
@@ -10874,7 +10845,7 @@
 						<b pos="1"/>
 						<lu>
 							<get-case-from pos="2">
-								<lit v="em"/>
+								<lit v="en"/>
 							</get-case-from>
 							<clip pos="2" side="tl" part="a_prep"/>
 						</lu>
@@ -10905,7 +10876,7 @@
 						<b pos="1"/>
 						<lu>
 							<get-case-from pos="2">
-								<lit v="em"/>
+								<lit v="en"/>
 							</get-case-from>
 							<clip pos="2" side="tl" part="a_prep"/>
 						</lu>
@@ -10989,7 +10960,7 @@
 	    <b pos="2"/>
 	    <lu>
 	      <get-case-from pos="3">
-		<lit v="em"/>
+		<lit v="en"/>
 	      </get-case-from>
 	      <clip pos="3" side="tl" part="a_prep"/> 
 	    </lu>
@@ -11023,7 +10994,7 @@
 	    <b pos="2"/>
 	    <lu>
 	      <get-case-from pos="3">
-		<lit v="em"/>
+		<lit v="en"/>
 	      </get-case-from>
 	      <clip pos="3" side="tl" part="a_prep"/> 
 	    </lu>
