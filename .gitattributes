@@ -17,3 +17,10 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+t/README.org -text
+t/config.sh -text
+t/config.sh.in -text
+t/pending-tests -text
+t/regression-tests -text
+t/update-latest -text
+t/wiki-tests -text
