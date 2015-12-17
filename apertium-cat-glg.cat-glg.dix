@@ -273,11 +273,14 @@
       <e r="RL"><p><l>altre<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>outro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l>altre<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l><r>outro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 
-      <e><p><l>sengles<s n="det"/><s n="ind"/></l><r>senllos<s n="det"/><s n="ind"/></r></p></e>
+      <!--<e><p><l>sengles<s n="det"/><s n="ind"/></l><r>senllos<s n="det"/><s n="ind"/></r></p></e>-->
       <e><p><l>el<b/>seu<s n="det"/><s n="pos"/></l><r>o<b/>seu<s n="det"/><s n="pos"/></r></p></e>
       <e><p><l>el<b/>seu<s n="det"/><s n="pos"/></l><r>seu<s n="det"/><s n="pos"/></r></p></e>
-      <e><p><l>llur<s n="det"/><s n="pos"/></l><r>o<b/>seu<s n="det"/><s n="pos"/></r></p></e>
-      <e><p><l>llur<s n="det"/><s n="pos"/></l><r>seu<s n="det"/><s n="pos"/></r></p></e>
+
+      <e r="LR"><p><l>llur<s n="det"/><s n="pos"/><s n="mf"/></l><r>o<b/>seu<s n="det"/><s n="pos"/><s n="GD"/></r></p></e>
+      <e r="RL"><p><l>llur<s n="det"/><s n="pos"/><s n="mf"/></l><r>o<b/>seu<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>llur<s n="det"/><s n="pos"/><s n="mf"/></l><r>o<b/>seu<s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+
       <e><p><l>el<b/>teu<s n="det"/><s n="pos"/></l><r>o<b/>teu<s n="det"/><s n="pos"/></r></p></e>
       <e><p><l>el<b/>teu<s n="det"/><s n="pos"/></l><r>teu<s n="det"/><s n="pos"/></r></p></e>
       <e><p><l>un<s n="det"/></l><r>un<s n="det"/></r></p></e>
