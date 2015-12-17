@@ -237,6 +237,7 @@
       <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
       <e><p><l>es<s n="prn"/><s n="pro"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
+      <e><p><l>es<s n="prn"/><s n="enc"/><s n="ref"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/></r></p></e>
 
       <e><p><l>amb<b/>mi<s n="prn"/></l><r>comigo<s n="prn"/></r></p></e>
       <e><p><l>amb<b/>si<s n="prn"/><s n="tn"/></l><r>consigo<s n="prn"/><s n="tn"/><s n="ref"/></r></p></e>
@@ -7265,7 +7266,7 @@
       <e><p><l>tarifa<s n="n"/><s n="f"/></l><r>tarifa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tarima<s n="n"/><s n="f"/></l><r>tarima<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tarja<s n="n"/><s n="f"/></l><r>tarxeta<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>taronja<s n="n"/><s n="f"/></l><r>laranxa<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>taronja<s n="n"/><s n="f"/></l><r>laranxa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tarraconense<s n="n"/><s n="mf"/></l><r>tarraconense<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>tasca<s n="n"/><s n="f"/></l><r>tarefa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tassa<s n="n"/><s n="f"/></l><r>cunca<s n="n"/><s n="f"/></r></p></e>
@@ -9678,8 +9679,8 @@
       <e><p><l>paracaiguda<s n="n"/><s n="f"/></l><r>paracaídas<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>paraigua<s n="n"/><s n="m"/></l><r>paraugas<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>paranoia<s n="n"/><s n="f"/></l><r>paranoia<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>parcer<s n="n"/><s n="f"/></l><r>arrendatario de terras de cultivo<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>parcer<s n="n"/><s n="m"/></l><r>arrendatario de terras de cultivo<s n="n"/><s n="m"/></r></p></e>
+      <!--<e><p><l>parcer<s n="n"/><s n="f"/></l><r>arrendatario de terras de cultivo<s n="n"/><s n="f"/></r></p></e>-->
+      <!--<e><p><l>parcer<s n="n"/><s n="m"/></l><r>arrendatario de terras de cultivo<s n="n"/><s n="m"/></r></p></e>-->
       <e><p><l>parlamentari<s n="n"/></l><r>parlamentario<s n="n"/></r></p></e>
       <e><p><l>parlamentarisme<s n="n"/><s n="m"/></l><r>parlamentarismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>partició<s n="n"/><s n="f"/></l><r>partición<s n="n"/><s n="f"/></r></p></e>
@@ -9694,7 +9695,7 @@
       <e><p><l>pas<s n="n"/><s n="m"/></l><r>pasaxe<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pas<s n="n"/><s n="m"/></l><r>paso<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>passant<s n="n"/><s n="m"/></l><r>empregado<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>passatemps<s n="n"/><s n="m"/></l><r>entretemento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>passatemps<s n="n"/><s n="m"/></l><r>entretemento<s n="n"/><s n="m"/></r></p><par n="temps_tempo"/></e>
       <e><p><l>passatge<s n="n"/><s n="m"/></l><r>pasaxe<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>passatge<s n="n"/><s n="m"/></l><r>paso<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>passatger<s n="n"/></l><r>pasaxeiro<s n="n"/></r></p></e>
@@ -19766,7 +19767,7 @@
       <e><p><l>portar<g><b/>a<b/>terme</g><s n="vblex"/></l><r>levar<g><b/>a<b/>cabo</g><s n="vblex"/></r></p></e>
       <e><p><l>posar<g><b/>en<b/>escena</g><s n="vblex"/></l><r>escenificar<s n="vblex"/></r></p></e>
       <e><p><l>predeterminar<s n="vblex"/></l><r>predeterminar<s n="vblex"/></r></p></e>
-      <e><p><l>prefixar<s n="vblex"/></l><r>prefijar<s n="vblex"/></r></p></e>
+      <!--<e><p><l>prefixar<s n="vblex"/></l><r>prefijar<s n="vblex"/></r></p></e>-->
       <e><p><l>preguntar-se<s n="vblex"/><s n="pron"/></l><r>preguntarse<s n="vblex"/><s n="pron"/></r></p></e>
       <e><p><l>preocupar-se<s n="vblex"/><s n="pron"/></l><r>preocuparse<s n="vblex"/><s n="pron"/></r></p></e>
       <e><p><l>propulsar<s n="vblex"/></l><r>impulsar<s n="vblex"/></r></p></e>

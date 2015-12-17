@@ -162,7 +162,14 @@
 			<cat-item tags="vbhaver.inf"/>
 			<cat-item tags="vbmod.inf"/>
 		</def-cat>
-		
+			
+		<def-cat n="imper">
+			<cat-item tags="vblex.imp.*"/>
+			<cat-item tags="vbser.imp.*"/>
+			<cat-item tags="vbhaver.imp.*"/>
+			<cat-item tags="vbmod.imp.*"/>
+		</def-cat>
+
 		<def-cat n="perif">
 			<cat-item tags="vblex.ifi.*"/>
 			<cat-item tags="vbser.ifi.*"/>
@@ -9496,6 +9503,14 @@
 			<pattern-item n="verb"/>
 		</pattern>
 		<action>
+                <choose>
+                  <when>
+                    <test><and><equal><clip pos="1" side="tl" part="temps"/><lit-tag v="imp"/></equal>
+                               <or><equal><clip pos="1" side="tl" part="persona"/><lit-tag v="p1"/></equal>
+                                   <equal><clip pos="1" side="tl" part="persona"/><lit-tag v="p3"/></equal></or></and></test>
+                    <let><clip pos="1" side="tl" part="temps"/><lit-tag v="prs"/></let>
+                  </when>
+                </choose>
 			<out>
 				<lu>
 					<clip pos="1" side="tl" part="lemh"/>
