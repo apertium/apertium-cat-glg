@@ -1,22 +1,74 @@
 <rules>
-  <!-- 
-    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
-    Add your own rules within <rule> here, using the resources below as a guide 
-  -->
-
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
-    </match>
+  <rule weight="1.0">
+    <match lemma="taula" tags="n.*"><select lemma="mesa" tags="n.*"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="cadira" tags="n.*"><select lemma="cadeira" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.m.*"><select lemma="cabeza" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="finestra" tags="n.*"><select lemma="xanela" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="amagar" tags="vblex.*"><select lemma="esconder" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="caminar" tags="vblex.*"><select lemma="andar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="apropar" tags="vblex.*"><select lemma="achegar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="intentar" tags="vblex.*"><select lemma="tentar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="de pressa" tags="adv"><select lemma="ás présas" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a prop" tags="adv"><select lemma="preto" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="probablement" tags="adv"><select lemma="probablemente" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="davant" tags="pr"><select lemma="diante de" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sota" tags="pr"><select lemma="baixo" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or><match lemma="ser" tags="vbser.*"><select lemma="estar" tags="vblex.*"/></match>
+        <match lemma="estar" tags="vblex.*"/></or>
+    <or><match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
+        <match lemma="dins de" tags="pr"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ser" tags="vbser.*"><select lemma="ser" tags="vbser.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ser" tags="vbser.*"><select lemma="estar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="on" tags="adv.itg"/>
+    <match lemma="ser" tags="vbser.*"><select lemma="estar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="acabar" tags="vblex.*"><select lemma="acabar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acabar" tags="vblex.*"><select lemma="rematar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acabar" tags="vblex.*"><select lemma="rematar" tags="vblex.*"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
 </rules>
-
-<!-- 
-Resources: 
-    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
-    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
-    http://wiki.apertium.org/wiki/Lexical_selection
-    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
--->
-

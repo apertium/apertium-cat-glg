@@ -30,3 +30,4 @@ t/regression-tests -text
 t/update-latest -text
 t/wiki-tests -text
 texts/cuento.cat.txt -text
+texts/cuento.glg.txt -text
