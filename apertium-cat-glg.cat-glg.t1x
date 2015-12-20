@@ -4969,7 +4969,7 @@
                     <out>
                         <lu>
                             <get-case-from pos="1" >
-                                <lit v="há"/>
+                                <lit v="facer"/>
                             </get-case-from>
                             <clip pos="1" side="tl" part="a_verb"/>    
                             <clip pos="1" side="tl" part="temps"/>    
@@ -5000,7 +5000,7 @@
             <out>
                 <lu>
                     <get-case-from pos="1" >
-                        <lit v="há"/>
+                        <lit v="facer"/> <!-- @@@POR -->
                     </get-case-from>
                     <clip pos="1" side="tl" part="a_verb"/>    
                     <clip pos="1" side="tl" part="temps"/>    
@@ -5035,7 +5035,7 @@
             <out>
                 <lu>
                     <get-case-from pos="1" >
-                        <lit v="há"/>
+                        <lit v="facer"/> <!-- @@@POR -->
                     </get-case-from>
                     <clip pos="1" side="tl" part="a_verb"/>    
                     <clip pos="1" side="tl" part="temps"/>    
@@ -5076,7 +5076,7 @@
             <out>
                 <lu>
                     <get-case-from pos="1" >
-                        <lit v="há"/>
+                        <lit v="facer"/> <!-- @@@POR -->
                     </get-case-from>
                     <clip pos="1" side="tl" part="a_verb"/>    
                     <clip pos="1" side="tl" part="temps"/>    
@@ -5119,7 +5119,7 @@
             <out>
                 <lu>
                     <get-case-from pos="1" >
-                        <lit v="há"/>
+                        <lit v="facer"/> <!-- @@@POR -->
                     </get-case-from>
                     <clip pos="1" side="tl" part="a_verb"/>    
                     <clip pos="1" side="tl" part="temps"/>    

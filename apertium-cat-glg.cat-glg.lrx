@@ -6,9 +6,6 @@
     <match lemma="cadira" tags="n.*"><select lemma="cadeira" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="cap" tags="n.m.*"><select lemma="cabeza" tags="n.f.*"/></match>
-  </rule>
-  <rule weight="1.0">
     <match lemma="finestra" tags="n.*"><select lemma="xanela" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -18,13 +15,7 @@
     <match lemma="caminar" tags="vblex.*"><select lemma="andar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="morir" tags="vblex.*"><select lemma="morrer" tags="vblex.*"/></match>
-  </rule>
-  <rule weight="1.0">
     <match lemma="agradar" tags="vblex.*"><select lemma="gustar" tags="vblex.*"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="apropar" tags="vblex.*"><select lemma="achegar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="intentar" tags="vblex.*"><select lemma="tentar" tags="vblex.*"/></match>
@@ -106,6 +97,4567 @@
   </rule>
 
 
+
+
+  <rule weight="0.8">
+    <match lemma="abastar" tags="vblex.*"><select lemma="atinxir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abastar" tags="vblex.*"><select lemma="abarcar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abastar" tags="vblex.*"><select lemma="alcanzar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abastar" tags="vblex.*"><select lemma="abranguer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="abonar" tags="vblex.*"><select lemma="abonar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abonar" tags="vblex.*"><select lemma="cuitar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abonar" tags="vblex.*"><select lemma="estercar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="acariciar" tags="vblex.*"><select lemma="acariciar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acariciar" tags="vblex.*"><select lemma="acariñar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acariciar" tags="vblex.*"><select lemma="aloumiñar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acariciar" tags="vblex.*"><select lemma="agarimar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aclariment" tags="n.m.*"><select lemma="aclaración" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aclariment" tags="n.m.*"><select lemma="explicación" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aclariment" tags="n.m.*"><select lemma="clarificación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aclarir" tags="vblex.*"><select lemma="aclarar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aclarir" tags="vblex.*"><select lemma="clarear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aclarir" tags="vblex.*"><select lemma="clarificar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="acollir" tags="vblex.*"><select lemma="acoller" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acollir" tags="vblex.*"><select lemma="gorecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acollir" tags="vblex.*"><select lemma="acubillar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aconseguir" tags="vblex.*"><select lemma="acadar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aconseguir" tags="vblex.*"><select lemma="alcanzar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aconseguir" tags="vblex.*"><select lemma="atinxir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aconseguir" tags="vblex.*"><select lemma="conseguir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aconseguir" tags="vblex.*"><select lemma="lograr" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="acostar" tags="vblex.*"><select lemma="acercar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acostar" tags="vblex.*"><select lemma="acaroar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acostar" tags="vblex.*"><select lemma="achegar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acostar" tags="vblex.*"><select lemma="arrimar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acostar" tags="vblex.*"><select lemma="aconchegar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="acovardir" tags="vblex.*"><select lemma="acovardar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acovardir" tags="vblex.*"><select lemma="achicar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acovardir" tags="vblex.*"><select lemma="amedrentar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="abanico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="abano" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="fan" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="seareiro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="seguidor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="afeccionado" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="admirador" tags="n.*"><select lemma="ventilador" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="adversari" tags="n.f.*"><select lemma="opoñente" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="adversari" tags="n.f.*"><select lemma="adversario" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="adversari" tags="n.f.*"><select lemma="adversario" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="advertiment" tags="n.m.*"><select lemma="advertencia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="advertiment" tags="n.m.*"><select lemma="aviso" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="advertiment" tags="n.m.*"><select lemma="amoestación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="afable" tags="adj.*"><select lemma="afable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afable" tags="adj.*"><select lemma="afábel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afable" tags="adj.*"><select lemma="apracible" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afable" tags="adj.*"><select lemma="apracíbel" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="afavorir" tags="vblex.*"><select lemma="agoirar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afavorir" tags="vblex.*"><select lemma="auspiciar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afavorir" tags="vblex.*"><select lemma="favorecer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="afecte" tags="n.m.*"><select lemma="afecto" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afecte" tags="n.m.*"><select lemma="cariño" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afecte" tags="n.m.*"><select lemma="agarimo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afecte" tags="n.m.*"><select lemma="aloumiño" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="afectuós" tags="adj.*"><select lemma="cariñoso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afectuós" tags="adj.*"><select lemma="afectuoso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afectuós" tags="adj.*"><select lemma="agarimoso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afectuós" tags="adj.*"><select lemma="garatuxeiro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="abanico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="abano" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="fan" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="seguidor" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="seareiro" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="aficionado" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="ventilador" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aficionat" tags="n.f.*"><select lemma="afeccionado" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="agafar" tags="vblex.*"><select lemma="apañar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agafar" tags="vblex.*"><select lemma="asir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agafar" tags="vblex.*"><select lemma="coller" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agafar" tags="vblex.*"><select lemma="agarrar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="agarrar" tags="vblex.*"><select lemma="agarrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agarrar" tags="vblex.*"><select lemma="termar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agarrar" tags="vblex.*"><select lemma="apreixar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="agradable" tags="adj.*"><select lemma="agradable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agradable" tags="adj.*"><select lemma="agradábel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agradable" tags="adj.*"><select lemma="pracenteiro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aguaitar" tags="vblex.*"><select lemma="axexar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aguaitar" tags="vblex.*"><select lemma="asexar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aguaitar" tags="vblex.*"><select lemma="esculcar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aguaitar" tags="vblex.*"><select lemma="espreitar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aiguavés" tags="n.m.*"><select lemma="alcatrán" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aiguavés" tags="n.m.*"><select lemma="ton" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aiguavés" tags="n.m.*"><select lemma="breo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aiguavés" tags="n.m.*"><select lemma="brea" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aixella" tags="n.f.*"><select lemma="axila" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aixella" tags="n.f.*"><select lemma="sobrazo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aixella" tags="n.f.*"><select lemma="sobaco" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="alba" tags="n.f.*"><select lemma="alba" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alba" tags="n.f.*"><select lemma="clarexa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alba" tags="n.f.*"><select lemma="amencida" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alba" tags="n.f.*"><select lemma="amañecida" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="albirar" tags="vblex.*"><select lemma="avistar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="albirar" tags="vblex.*"><select lemma="divisar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="albirar" tags="vblex.*"><select lemma="albiscar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="alçar" tags="vblex.*"><select lemma="alzar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alçar" tags="vblex.*"><select lemma="erguer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alçar" tags="vblex.*"><select lemma="levantar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aldarull" tags="n.m.*"><select lemma="alboroto" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aldarull" tags="n.m.*"><select lemma="motín" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aldarull" tags="n.m.*"><select lemma="disturbio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aldarull" tags="n.m.*"><select lemma="perturbación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="alè" tags="n.m.*"><select lemma="bafo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alè" tags="n.m.*"><select lemma="folgo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alè" tags="n.m.*"><select lemma="alento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="alliberament" tags="n.m.*"><select lemma="emisión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alliberament" tags="n.m.*"><select lemma="liberación" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alliberament" tags="n.m.*"><select lemma="versión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alliberament" tags="n.m.*"><select lemma="excarceración" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="amagar" tags="vblex.*"><select lemma="acochar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="amagar" tags="vblex.*"><select lemma="agochar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="amagar" tags="vblex.*"><select lemma="esconder" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="americà" tags="n.f.*"><select lemma="americano" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="americà" tags="n.f.*"><select lemma="norteamericano" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="americà" tags="n.f.*"><select lemma="estadounidense" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="anella" tags="n.f.*"><select lemma="anel" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anella" tags="n.f.*"><select lemma="aro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anella" tags="n.f.*"><select lemma="trompo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anella" tags="n.f.*"><select lemma="cerco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anella" tags="n.f.*"><select lemma="círculo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anella" tags="n.f.*"><select lemma="buxaina" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="animar" tags="vblex.*"><select lemma="animar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="animar" tags="vblex.*"><select lemma="arrufar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="animar" tags="vblex.*"><select lemma="afoutar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ànim" tags="n.m.*"><select lemma="azo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ànim" tags="n.m.*"><select lemma="pulo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ànim" tags="n.m.*"><select lemma="ánimo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="apassionat" tags="adj.*"><select lemma="apaixonado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="apassionat" tags="adj.*"><select lemma="ardente" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="apassionat" tags="adj.*"><select lemma="afervoado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="apropar" tags="vblex.*"><select lemma="acercar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="apropar" tags="vblex.*"><select lemma="achegar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="apropar" tags="vblex.*"><select lemma="aconchegar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="arrancar" tags="vblex.*"><select lemma="arrancar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrancar" tags="vblex.*"><select lemma="arrincar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrancar" tags="vblex.*"><select lemma="ripar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="arranjar" tags="vblex.*"><select lemma="amañar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arranjar" tags="vblex.*"><select lemma="arranxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arranjar" tags="vblex.*"><select lemma="aviar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="arrapar" tags="vblex.*"><select lemma="agarrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrapar" tags="vblex.*"><select lemma="termar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrapar" tags="vblex.*"><select lemma="rabuñar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrapar" tags="vblex.*"><select lemma="apreixar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="arreglar" tags="vblex.*"><select lemma="amañar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arreglar" tags="vblex.*"><select lemma="arranxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arreglar" tags="vblex.*"><select lemma="aviar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="arrencada" tags="n.f.*"><select lemma="arranque" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrencada" tags="n.f.*"><select lemma="arrinque" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrencada" tags="n.f.*"><select lemma="inicio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrencada" tags="n.f.*"><select lemma="saída" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="arrencar" tags="vblex.*"><select lemma="arrancar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrencar" tags="vblex.*"><select lemma="arrincar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrencar" tags="vblex.*"><select lemma="ripar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="assetjar" tags="vblex.*"><select lemma="asediar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="assetjar" tags="vblex.*"><select lemma="acosar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="assetjar" tags="vblex.*"><select lemma="cercar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="assetjar" tags="vblex.*"><select lemma="sitiar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="astúcia" tags="n.f.*"><select lemma="astucia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="astúcia" tags="n.f.*"><select lemma="renartaría" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="astúcia" tags="n.f.*"><select lemma="renartería" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="astut" tags="adj.*"><select lemma="astuto" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="astut" tags="adj.*"><select lemma="arteiro" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="astut" tags="adj.*"><select lemma="raposeiro" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="astut" tags="adj.*"><select lemma="lagarteiro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="atordir" tags="vblex.*"><select lemma="apampar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atordir" tags="vblex.*"><select lemma="aparvar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atordir" tags="vblex.*"><select lemma="atordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atordir" tags="vblex.*"><select lemma="aloular" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atordir" tags="vblex.*"><select lemma="abouxar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="atribuir" tags="vblex.*"><select lemma="achacar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atribuir" tags="vblex.*"><select lemma="apor" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atribuir" tags="vblex.*"><select lemma="apoñer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="atribuir" tags="vblex.*"><select lemma="atribuír" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="aturada" tags="n.f.*"><select lemma="parada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aturada" tags="n.f.*"><select lemma="paraxe" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aturada" tags="n.f.*"><select lemma="parón" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="audible" tags="adj.*"><select lemma="audible" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="audible" tags="adj.*"><select lemma="audíbel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="audible" tags="adj.*"><select lemma="sonoro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="avançar" tags="vblex.*"><select lemma="avantar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avançar" tags="vblex.*"><select lemma="avanzar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avançar" tags="vblex.*"><select lemma="alancar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avançar" tags="vblex.*"><select lemma="adiantar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="avergonyit" tags="adj.*"><select lemma="avergoñado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avergonyit" tags="adj.*"><select lemma="avergonzado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avergonyit" tags="adj.*"><select lemma="envergoñado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="barraca" tags="n.f.*"><select lemma="barraca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="barraca" tags="n.f.*"><select lemma="chabola" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="barraca" tags="n.f.*"><select lemma="choza" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="barraca" tags="n.f.*"><select lemma="choupana" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bastiment" tags="n.m.*"><select lemma="bastidor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bastiment" tags="n.m.*"><select lemma="marco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bastiment" tags="n.m.*"><select lemma="estrutura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="batre" tags="vblex.*"><select lemma="bater" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="batre" tags="vblex.*"><select lemma="bourar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="batre" tags="vblex.*"><select lemma="zoupar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="batre" tags="vblex.*"><select lemma="remexer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="batre" tags="vblex.*"><select lemma="zorregar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="baula" tags="n.f.*"><select lemma="elo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="baula" tags="n.f.*"><select lemma="atadura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="baula" tags="n.f.*"><select lemma="ligazón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="baula" tags="n.f.*"><select lemma="vínculo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bec" tags="n.m.*"><select lemma="pico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bec" tags="n.m.*"><select lemma="peteiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bec" tags="n.m.*"><select lemma="picouto" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bell" tags="adj.*"><select lemma="belo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bell" tags="adj.*"><select lemma="belido" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bell" tags="adj.*"><select lemma="fermoso" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="berruga" tags="n.f.*"><select lemma="espulla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="berruga" tags="n.f.*"><select lemma="verruga" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="berruga" tags="n.f.*"><select lemma="espunlla" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bifurcació" tags="n.f.*"><select lemma="póla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bifurcació" tags="n.f.*"><select lemma="sucursal" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bifurcació" tags="n.f.*"><select lemma="rama" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bocí" tags="n.m.*"><select lemma="trisco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bocí" tags="n.m.*"><select lemma="pedazo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bocí" tags="n.m.*"><select lemma="chisco" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="toleada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="tolemia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="tolería" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="toleira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="tolaría" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="tolada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bogeria" tags="n.f.*"><select lemma="loucura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="tolo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="louco" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="aluado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="arramado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="toleirón" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="toleirán" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="tolambrón" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boig" tags="adj.*"><select lemma="atoleirado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="boira" tags="n.f.*"><select lemma="néboa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boira" tags="n.f.*"><select lemma="nebra" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boira" tags="n.f.*"><select lemma="bruma" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="boira" tags="n.f.*"><select lemma="brétema" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="borratxera" tags="n.f.*"><select lemma="bebedela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="borratxera" tags="n.f.*"><select lemma="bebedeira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="borratxera" tags="n.f.*"><select lemma="borracheira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="borsa" tags="n.f.*"><select lemma="bolsa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="borsa" tags="n.f.*"><select lemma="bulsa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="borsa" tags="n.f.*"><select lemma="saqueta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="borsa" tags="n.f.*"><select lemma="faldriqueira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bossa" tags="n.f.*"><select lemma="bolsa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bossa" tags="n.f.*"><select lemma="bolso" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bossa" tags="n.f.*"><select lemma="bulsa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bossa" tags="n.f.*"><select lemma="saqueta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bossa" tags="n.f.*"><select lemma="faldriqueira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="broc" tags="n.m.*"><select lemma="pico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="broc" tags="n.m.*"><select lemma="picouto" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="broc" tags="n.m.*"><select lemma="peteiro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="brollar" tags="vblex.*"><select lemma="agromar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brollar" tags="vblex.*"><select lemma="brotar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brollar" tags="vblex.*"><select lemma="abrollar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brollar" tags="vblex.*"><select lemma="xermolar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="brot" tags="n.m.*"><select lemma="gomo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brot" tags="n.m.*"><select lemma="brote" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brot" tags="n.m.*"><select lemma="gromo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brot" tags="n.m.*"><select lemma="abrocho" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brot" tags="n.m.*"><select lemma="abrollo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brot" tags="n.m.*"><select lemma="rebento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="bruc" tags="n.m.*"><select lemma="urceira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bruc" tags="n.m.*"><select lemma="quiroga" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bruc" tags="n.m.*"><select lemma="queiroga" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bruc" tags="n.m.*"><select lemma="queiruga" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="bruc" tags="n.m.*"><select lemma="breixeira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="brut" tags="adj.*"><select lemma="bruto" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brut" tags="adj.*"><select lemma="sucio" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brut" tags="adj.*"><select lemma="cotroso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="brut" tags="adj.*"><select lemma="manchado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="buidar" tags="vblex.*"><select lemma="despexar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="buidar" tags="vblex.*"><select lemma="baleirar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="buidar" tags="vblex.*"><select lemma="baldeirar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="burla" tags="n.f.*"><select lemma="burla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="burla" tags="n.f.*"><select lemma="mofa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="burla" tags="n.f.*"><select lemma="ridiculización" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="asento" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="butaca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="escano" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="sé" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="localidade" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="asentadoiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="butaca" tags="n.f.*"><select lemma="cadeira de brazos" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cabellera" tags="n.f.*"><select lemma="cabeleira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cabellera" tags="n.f.*"><select lemma="melena" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cabellera" tags="n.f.*"><select lemma="guedella" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="camp" tags="n.m.*"><select lemma="eido" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="camp" tags="n.m.*"><select lemma="agro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="camp" tags="n.m.*"><select lemma="campo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cansat" tags="adj.*"><select lemma="canso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cansat" tags="adj.*"><select lemma="cansado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cansat" tags="adj.*"><select lemma="fatigado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.m.*"><select lemma="cabo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.m.*"><select lemma="xefe" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.m.*"><select lemma="testa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cap" tags="n.m.*"><select lemma="cabeza" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.m.*"><select lemma="cachola" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.m.*"><select lemma="chencha" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cap" tags="n.m.*"><select lemma="cacheira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="capvespre" tags="n.m.*"><select lemma="solpor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="capvespre" tags="n.m.*"><select lemma="serán" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="capvespre" tags="n.m.*"><select lemma="atardecer" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="capvespre" tags="n.m.*"><select lemma="luscofusco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="capvespre" tags="n.m.*"><select lemma="lusquefusque" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="carcassa" tags="n.f.*"><select lemma="marco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="carcassa" tags="n.f.*"><select lemma="bastidor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="carcassa" tags="n.f.*"><select lemma="estrutura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="carcassa" tags="n.f.*"><select lemma="aloxamento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cartera" tags="n.f.*"><select lemma="carteira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cartera" tags="n.f.*"><select lemma="moedeiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cartera" tags="n.f.*"><select lemma="billeteira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cendra" tags="n.f.*"><select lemma="cinsa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cendra" tags="n.f.*"><select lemma="cinza" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cendra" tags="n.f.*"><select lemma="borralla" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cimera" tags="n.f.*"><select lemma="cume" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cimera" tags="n.f.*"><select lemma="cumio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cimera" tags="n.f.*"><select lemma="cimeira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="clar" tags="adj.*"><select lemma="nidio" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clar" tags="adj.*"><select lemma="claro" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clar" tags="adj.*"><select lemma="nítido" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="clarejar" tags="vblex.*"><select lemma="amañecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clarejar" tags="vblex.*"><select lemma="amencer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clarejar" tags="vblex.*"><select lemma="raiolar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clarejar" tags="vblex.*"><select lemma="lumbrigar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clarejar" tags="vblex.*"><select lemma="alborecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clarejar" tags="vblex.*"><select lemma="alborexar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="clatell" tags="n.m.*"><select lemma="noca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clatell" tags="n.m.*"><select lemma="caluga" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clatell" tags="n.m.*"><select lemma="brouca" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.f.*"><select lemma="ton" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.f.*"><select lemma="clave" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.f.*"><select lemma="chave" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.f.*"><select lemma="billa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.f.*"><select lemma="tecla" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.m.*"><select lemma="uña" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.m.*"><select lemma="cravo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clau" tags="n.m.*"><select lemma="unlla" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="clavar" tags="vblex.*"><select lemma="cravar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clavar" tags="vblex.*"><select lemma="fincar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="clavar" tags="vblex.*"><select lemma="chantar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cloure" tags="vblex.*"><select lemma="cerrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cloure" tags="vblex.*"><select lemma="pechar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cloure" tags="vblex.*"><select lemma="fechar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cobrament" tags="n.m.*"><select lemma="cobro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cobrament" tags="n.m.*"><select lemma="colección" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cobrament" tags="n.m.*"><select lemma="recolla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cobrament" tags="n.m.*"><select lemma="recadación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="codolar" tags="n.m.*"><select lemma="cascote" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="codolar" tags="n.m.*"><select lemma="rebo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="codolar" tags="n.m.*"><select lemma="cascallo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="coïssor" tags="n.f.*"><select lemma="proído" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="coïssor" tags="n.f.*"><select lemma="comechón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="coïssor" tags="n.f.*"><select lemma="comichón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="coïssor" tags="n.f.*"><select lemma="comechume" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="còlera" tags="n.f.*"><select lemma="cólera" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còlera" tags="n.f.*"><select lemma="rabia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còlera" tags="n.f.*"><select lemma="arrouto" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còlera" tags="n.f.*"><select lemma="arrebato" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="colonitzar" tags="vblex.*"><select lemma="liquidar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="colonitzar" tags="vblex.*"><select lemma="asentar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="colonitzar" tags="vblex.*"><select lemma="resolver" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="colpejar" tags="vblex.*"><select lemma="petar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="colpejar" tags="vblex.*"><select lemma="golpear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="colpejar" tags="vblex.*"><select lemma="zoscar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="comediant" tags="n.*"><select lemma="cómico" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="comediant" tags="n.*"><select lemma="cómico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="comediant" tags="n.*"><select lemma="cómico" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="còmic" tags="n.f.*"><select lemma="cómic" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còmic" tags="n.f.*"><select lemma="cómico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còmic" tags="n.f.*"><select lemma="cómico" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="còmic" tags="n.m.*"><select lemma="comic" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còmic" tags="n.m.*"><select lemma="cómic" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="còmic" tags="n.m.*"><select lemma="cómico" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="company" tags="n.*"><select lemma="socio" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="company" tags="n.*"><select lemma="compañeiro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="company" tags="n.*"><select lemma="compañeiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="company" tags="n.*"><select lemma="acompañante" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="comparar" tags="vblex.*"><select lemma="comparar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="comparar" tags="vblex.*"><select lemma="cotexar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="comparar" tags="vblex.*"><select lemma="confrontar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="concordar" tags="vblex.*"><select lemma="concordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="concordar" tags="vblex.*"><select lemma="pactar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="concordar" tags="vblex.*"><select lemma="acordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="concordar" tags="vblex.*"><select lemma="estar# de acordo" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="conducta" tags="n.f.*"><select lemma="conduta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conducta" tags="n.f.*"><select lemma="proceder" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conducta" tags="n.f.*"><select lemma="comportamento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="conseller" tags="n.f.*"><select lemma="rexedor" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conseller" tags="n.f.*"><select lemma="concelleiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conseller" tags="n.f.*"><select lemma="concelleiro" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="copejar" tags="vblex.*"><select lemma="petar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="copejar" tags="vblex.*"><select lemma="golpear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="copejar" tags="vblex.*"><select lemma="zoscar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="corda" tags="n.f.*"><select lemma="corda" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="corda" tags="n.f.*"><select lemma="trela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="corda" tags="n.f.*"><select lemma="trenla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="corda" tags="n.f.*"><select lemma="treixa" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="crac" tags="n.m.*"><select lemma="shock" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="crac" tags="n.m.*"><select lemma="choque" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="crac" tags="n.m.*"><select lemma="accidente" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="criat" tags="n.*"><select lemma="criado" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="criat" tags="n.*"><select lemma="criado" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="criat" tags="n.*"><select lemma="criado" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="crida" tags="n.f.*"><select lemma="chamada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="crida" tags="n.f.*"><select lemma="chamamento" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="crida" tags="n.f.*"><select lemma="convocatoria" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cruixit" tags="n.m.*"><select lemma="estralo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cruixit" tags="n.m.*"><select lemma="estalo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cruixit" tags="n.m.*"><select lemma="renxido" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="cura" tags="n.f.*"><select lemma="cura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cura" tags="n.f.*"><select lemma="crego" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cura" tags="n.f.*"><select lemma="coidado" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="dacsa" tags="n.f.*"><select lemma="gran" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dacsa" tags="n.f.*"><select lemma="millo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dacsa" tags="n.f.*"><select lemma="maínzo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="danyar" tags="vblex.*"><select lemma="danar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="danyar" tags="vblex.*"><select lemma="mancar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="danyar" tags="vblex.*"><select lemma="magoar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="delerós" tags="adj.*"><select lemma="aficionado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="delerós" tags="adj.*"><select lemma="entusiasta" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="delerós" tags="adj.*"><select lemma="afeccionado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="derrocar" tags="vblex.*"><select lemma="derribar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="derrocar" tags="vblex.*"><select lemma="derrubar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="derrocar" tags="vblex.*"><select lemma="derruír" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="desaparèixer" tags="vblex.*"><select lemma="desaparecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desaparèixer" tags="vblex.*"><select lemma="esvaecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desaparèixer" tags="vblex.*"><select lemma="esvaer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="desbordar" tags="vblex.*"><select lemma="desbordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desbordar" tags="vblex.*"><select lemma="sobordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desbordar" tags="vblex.*"><select lemma="rebordar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="descompondre" tags="vblex.*"><select lemma="descompor" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="descompondre" tags="vblex.*"><select lemma="descompoñer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="descompondre" tags="vblex.*"><select lemma="esfurricar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="desgraciat" tags="adj.*"><select lemma="malpocado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desgraciat" tags="adj.*"><select lemma="miserable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desgraciat" tags="adj.*"><select lemma="miserábel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desgraciat" tags="adj.*"><select lemma="miserento" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="desitjar" tags="vblex.*"><select lemma="desexar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desitjar" tags="vblex.*"><select lemma="degoar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desitjar" tags="vblex.*"><select lemma="degoirar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desitjar" tags="vblex.*"><select lemma="devecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desitjar" tags="vblex.*"><select lemma="gorentar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="desocupació" tags="n.f.*"><select lemma="desemprego" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desocupació" tags="n.f.*"><select lemma="paro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desocupació" tags="n.f.*"><select lemma="desocupación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="desoir" tags="vblex.*"><select lemma="desoír" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desoir" tags="vblex.*"><select lemma="desouvir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="desoir" tags="vblex.*"><select lemma="desatender" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="despullar" tags="vblex.*"><select lemma="desposuír" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="despullar" tags="vblex.*"><select lemma="despir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="despullar" tags="vblex.*"><select lemma="espir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="destenyir-se" tags="vblex.pron.*"><select lemma="destinxir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="destenyir-se" tags="vblex.pron.*"><select lemma="destinguir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="destenyir-se" tags="vblex.pron.*"><select lemma="esvaecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="destenyir-se" tags="vblex.pron.*"><select lemma="murchar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="diada" tags="n.f.*"><select lemma="festa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="diada" tags="n.f.*"><select lemma="troula" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="diada" tags="n.f.*"><select lemma="foliada" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="dijous" tags="n.m.*"><select lemma="xoves" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dijous" tags="n.m.*"><select lemma="quinta feira" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dijous" tags="n.m.*"><select lemma="quinta feira" tags="n.f.pl.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="dimarts" tags="n.m.*"><select lemma="martes" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimarts" tags="n.m.*"><select lemma="terza feira" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimarts" tags="n.m.*"><select lemma="terza feira" tags="n.f.pl.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimarts" tags="n.m.*"><select lemma="terceira feira" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimarts" tags="n.m.*"><select lemma="terceira feira" tags="n.f.pl.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="dimecres" tags="n.m.*"><select lemma="mércores" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimecres" tags="n.m.*"><select lemma="corta feira" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimecres" tags="n.m.*"><select lemma="corta feira" tags="n.f.pl.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimecres" tags="n.m.*"><select lemma="cuarta feira" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dimecres" tags="n.m.*"><select lemma="cuarta feira" tags="n.f.pl.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="director" tags="n.*"><select lemma="director" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="director" tags="n.*"><select lemma="directivo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="director" tags="n.*"><select lemma="responsable" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="director" tags="n.*"><select lemma="responsábel" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="distracció" tags="n.f.*"><select lemma="diversión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="distracció" tags="n.f.*"><select lemma="distracción" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="distracció" tags="n.f.*"><select lemma="entretemento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="divendres" tags="n.m.*"><select lemma="venres" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="divendres" tags="n.m.*"><select lemma="sexta feira" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="divendres" tags="n.m.*"><select lemma="sexta feira" tags="n.f.pl.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="divertir" tags="vblex.*"><select lemma="divertir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="divertir" tags="vblex.*"><select lemma="troulear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="divertir" tags="vblex.*"><select lemma="rexoubar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="doblegar" tags="vblex.*"><select lemma="dobregar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="doblegar" tags="vblex.*"><select lemma="dobrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="doblegar" tags="vblex.*"><select lemma="tanxer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="donar# suport" tags="vblex.*"><select lemma="avalar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="donar# suport" tags="vblex.*"><select lemma="apoiar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="donar# suport" tags="vblex.*"><select lemma="sustentar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="do" tags="n.m.*"><select lemma="don" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="do" tags="n.m.*"><select lemma="regalo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="do" tags="n.m.*"><select lemma="agasallo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="embarassat" tags="adj.*"><select lemma="embarazado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embarassat" tags="adj.*"><select lemma="preñado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embarassat" tags="adj.*"><select lemma="grávido" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="embogir" tags="vblex.*"><select lemma="tolear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embogir" tags="vblex.*"><select lemma="louquear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embogir" tags="vblex.*"><select lemma="entolecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embogir" tags="vblex.*"><select lemma="enlouquecer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="embrolla" tags="n.f.*"><select lemma="maraña" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embrolla" tags="n.f.*"><select lemma="lea" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embrolla" tags="n.f.*"><select lemma="leria" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embrolla" tags="n.f.*"><select lemma="marfallada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embrolla" tags="n.f.*"><select lemma="zarapallada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embrolla" tags="n.f.*"><select lemma="zarangallada" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="embullar" tags="vblex.*"><select lemma="enlear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embullar" tags="vblex.*"><select lemma="enredar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embullar" tags="vblex.*"><select lemma="enmarañar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embullar" tags="vblex.*"><select lemma="enrodelar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embullar" tags="vblex.*"><select lemma="embrollar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="empaquetar" tags="vblex.*"><select lemma="envolver" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empaquetar" tags="vblex.*"><select lemma="empaquetar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empaquetar" tags="vblex.*"><select lemma="embalar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empaquetar" tags="vblex.*"><select lemma="lear" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="empentar" tags="vblex.*"><select lemma="empurrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empentar" tags="vblex.*"><select lemma="empuxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empentar" tags="vblex.*"><select lemma="puxar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="empènyer" tags="vblex.*"><select lemma="empurrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empènyer" tags="vblex.*"><select lemma="empuxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empènyer" tags="vblex.*"><select lemma="puxar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="empipar" tags="vblex.*"><select lemma="enfadar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empipar" tags="vblex.*"><select lemma="amuar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="empipar" tags="vblex.*"><select lemma="cabrear" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="emplenar" tags="vblex.*"><select lemma="encher" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="emplenar" tags="vblex.*"><select lemma="reencher" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="emplenar" tags="vblex.*"><select lemma="cumprimentar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="encoratjament" tags="n.m.*"><select lemma="azo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="encoratjament" tags="n.m.*"><select lemma="pulo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="encoratjament" tags="n.m.*"><select lemma="ánimo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="enfadar" tags="vblex.*"><select lemma="enfadar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enfadar" tags="vblex.*"><select lemma="amuar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enfadar" tags="vblex.*"><select lemma="cabrear" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="enfollir" tags="vblex.*"><select lemma="tolear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enfollir" tags="vblex.*"><select lemma="louquear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enfollir" tags="vblex.*"><select lemma="entolecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enfollir" tags="vblex.*"><select lemma="enlouquecer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="engranatge" tags="n.m.*"><select lemma="engrenaxe" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engranatge" tags="n.m.*"><select lemma="equipo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engranatge" tags="n.m.*"><select lemma="marcha" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engranatge" tags="n.m.*"><select lemma="andaina" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="engrescar" tags="vblex.*"><select lemma="animar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engrescar" tags="vblex.*"><select lemma="arrufar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engrescar" tags="vblex.*"><select lemma="afoutar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="engrunsar" tags="vblex.*"><select lemma="mecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engrunsar" tags="vblex.*"><select lemma="mexer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="engrunsar" tags="vblex.*"><select lemma="sacudir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="elo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="atadura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="ligazón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="vínculo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="aventura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="conexión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enllaç" tags="n.m.*"><select lemma="cooperación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="enredar" tags="vblex.*"><select lemma="enganar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enredar" tags="vblex.*"><select lemma="enredar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enredar" tags="vblex.*"><select lemma="enlear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enredar" tags="vblex.*"><select lemma="engaiolar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enredar" tags="vblex.*"><select lemma="enrodelar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enredar" tags="vblex.*"><select lemma="encerellar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="enrogir" tags="vblex.*"><select lemma="roxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enrogir" tags="vblex.*"><select lemma="arroibar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enrogir" tags="vblex.*"><select lemma="arrubiar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="entorn" tags="n.m.*"><select lemma="ambiente" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="entorn" tags="n.m.*"><select lemma="contorna" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="entorn" tags="n.m.*"><select lemma="medio ambiente" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="envasar" tags="vblex.*"><select lemma="embalar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="envasar" tags="vblex.*"><select lemma="lear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="envasar" tags="vblex.*"><select lemma="envolver" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="envasar" tags="vblex.*"><select lemma="empaquetar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="equivocat" tags="adj.*"><select lemma="erróneo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="equivocat" tags="adj.*"><select lemma="enganado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="equivocat" tags="adj.*"><select lemma="equivocado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="escala" tags="n.f.pl.*"><select lemma="escala" tags="n.f.pl.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escala" tags="n.f.pl.*"><select lemma="balanza" tags="n.f.sg.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escala" tags="n.f.pl.*"><select lemma="balanza" tags="n.f.pl.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escala" tags="n.f.pl.*"><select lemma="escaleira" tags="n.f.pl.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escala" tags="n.f.pl.*"><select lemma="envergadura" tags="n.f.sg.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="escàndol" tags="n.m.*"><select lemma="rebumbio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escàndol" tags="n.m.*"><select lemma="escándalo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escàndol" tags="n.m.*"><select lemma="rebulicio" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="escapada" tags="n.f.*"><select lemma="escapada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escapada" tags="n.f.*"><select lemma="evasión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escapada" tags="n.f.*"><select lemma="fuga" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="escorcoll" tags="n.m.*"><select lemma="cacheo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escorcoll" tags="n.m.*"><select lemma="procura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escorcoll" tags="n.m.*"><select lemma="busca" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="esdevenir" tags="vblex.*"><select lemma="acontecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="esdevenir" tags="vblex.*"><select lemma="acaecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="esdevenir" tags="vblex.*"><select lemma="devir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="eslip" tags="n.m.*"><select lemma="esvarón" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="eslip" tags="n.m.*"><select lemma="escorregón" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="eslip" tags="n.m.*"><select lemma="escorregada" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="esme" tags="n.m.*"><select lemma="azo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="esme" tags="n.m.*"><select lemma="pulo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="esme" tags="n.m.*"><select lemma="ánimo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="espantar" tags="vblex.*"><select lemma="espantar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espantar" tags="vblex.*"><select lemma="asustar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espantar" tags="vblex.*"><select lemma="escorrentar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="espentar" tags="vblex.*"><select lemma="empurrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espentar" tags="vblex.*"><select lemma="empuxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espentar" tags="vblex.*"><select lemma="puxar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="moxena" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="muchica" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="muxica" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="chareta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="chispa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="faísca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="chamusca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="charamela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="espurna" tags="n.f.*"><select lemma="charamuza" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estampat" tags="n.m.*"><select lemma="imprenta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estampat" tags="n.m.*"><select lemma="pegada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estampat" tags="n.m.*"><select lemma="impresión" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estand" tags="n.m.*"><select lemma="apoio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estand" tags="n.m.*"><select lemma="parada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estand" tags="n.m.*"><select lemma="posición" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estar# d'acord" tags="vblex.*"><select lemma="acordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estar# d'acord" tags="vblex.*"><select lemma="concordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estar# d'acord" tags="vblex.*"><select lemma="pactar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estar# d'acord" tags="vblex.*"><select lemma="estar# de acordo" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estimar" tags="vblex.*"><select lemma="estimar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estimar" tags="vblex.*"><select lemma="querer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estimar" tags="vblex.*"><select lemma="amar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estirar" tags="vblex.*"><select lemma="estirar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estirar" tags="vblex.*"><select lemma="estalicar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estirar" tags="vblex.*"><select lemma="estarricar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estirar" tags="vblex.*"><select lemma="espreguizar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estrènyer" tags="vblex.*"><select lemma="estreitar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estrènyer" tags="vblex.*"><select lemma="apertar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estrènyer" tags="vblex.*"><select lemma="calcar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estrip" tags="n.m.*"><select lemma="bágoa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estrip" tags="n.m.*"><select lemma="lágrima" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estrip" tags="n.m.*"><select lemma="bagulla" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="estufa" tags="n.f.*"><select lemma="estufa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estufa" tags="n.f.*"><select lemma="cociña" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estufa" tags="n.f.*"><select lemma="forno" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="explotar" tags="vblex.*"><select lemma="explotar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="explotar" tags="vblex.*"><select lemma="estoupar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="explotar" tags="vblex.*"><select lemma="estourar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="faena" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="curro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="obra" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="oficio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="angueira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="trasnada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="faena" tags="n.f.*"><select lemma="traballo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fallir" tags="vblex.*"><select lemma="fallar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fallir" tags="vblex.*"><select lemma="errar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fallir" tags="vblex.*"><select lemma="crebar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fallir" tags="vblex.*"><select lemma="quebrar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fangós" tags="adj.*"><select lemma="avolto" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fangós" tags="adj.*"><select lemma="turbio" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fangós" tags="adj.*"><select lemma="túrbido" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fangós" tags="adj.*"><select lemma="enlamado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fangós" tags="adj.*"><select lemma="turbulento" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fastiguejar" tags="vblex.*"><select lemma="amocar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fastiguejar" tags="vblex.*"><select lemma="amolar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fastiguejar" tags="vblex.*"><select lemma="amoucar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="loucura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="tolada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="tolaría" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="toleada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="tolemia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="toleira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="febrada" tags="n.f.*"><select lemma="tolería" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="faena" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="curro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="obra" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="oficio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="angueira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="trasnada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feina" tags="n.f.*"><select lemma="traballo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer# explotar" tags="vblex.*"><select lemma="estourar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# explotar" tags="vblex.*"><select lemma="estoupar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# explotar" tags="vblex.*"><select lemma="explotar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer# les maletes" tags="vblex.*"><select lemma="lear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# les maletes" tags="vblex.*"><select lemma="empaquetar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# les maletes" tags="vblex.*"><select lemma="embalar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# les maletes" tags="vblex.*"><select lemma="envolver" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer# mal" tags="vblex.*"><select lemma="doer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# mal" tags="vblex.*"><select lemma="magoar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# mal" tags="vblex.*"><select lemma="mancar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# mal" tags="vblex.*"><select lemma="prexudicar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# mal" tags="vblex.*"><select lemma="facer# dano" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer# una besada" tags="vblex.*"><select lemma="dar# un bico" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# una besada" tags="vblex.*"><select lemma="beixar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# una besada" tags="vblex.*"><select lemma="bicar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer# un petó" tags="vblex.*"><select lemma="dar# un bico" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# un petó" tags="vblex.*"><select lemma="beixar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# un petó" tags="vblex.*"><select lemma="bicar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer# vaga" tags="vblex.*"><select lemma="atacar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# vaga" tags="vblex.*"><select lemma="golpear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# vaga" tags="vblex.*"><select lemma="petar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# vaga" tags="vblex.*"><select lemma="zoscar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fer# vaga" tags="vblex.*"><select lemma="facer# folga" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="festa" tags="n.f.*"><select lemma="festa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="festa" tags="n.f.*"><select lemma="troula" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="festa" tags="n.f.*"><select lemma="foliada" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="festeig" tags="n.m.*"><select lemma="festexo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="festeig" tags="n.m.*"><select lemma="noivado" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="festeig" tags="n.m.*"><select lemma="cortexo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="filtre" tags="n.m.*"><select lemma="filtro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="filtre" tags="n.m.*"><select lemma="boquilla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="filtre" tags="n.m.*"><select lemma="embocadura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="finestra" tags="n.f.*"><select lemma="fiestra" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="finestra" tags="n.f.*"><select lemma="ventá" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="finestra" tags="n.f.*"><select lemma="xanela" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="folíol" tags="n.m.*"><select lemma="folleto" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="folíol" tags="n.m.*"><select lemma="tríptico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="folíol" tags="n.m.*"><select lemma="panfleto" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="tolo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="louco" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="aluado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="toliño" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="arramado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="toleirón" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="toleirán" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="tolambrón" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="atoleirado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foll" tags="adj.*"><select lemma="tarambaina" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="tolada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="loucura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="toleira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="tolería" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="toleada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="tolemia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="follia" tags="n.f.*"><select lemma="tolaría" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fondo" tags="adj.*"><select lemma="fondo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fondo" tags="adj.*"><select lemma="sentido" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fondo" tags="adj.*"><select lemma="profundo" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="forat" tags="n.m.*"><select lemma="furaco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="forat" tags="n.m.*"><select lemma="buraco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="forat" tags="n.m.*"><select lemma="burato" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fort" tags="adj.*"><select lemma="rexo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fort" tags="adj.*"><select lemma="forte" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fort" tags="adj.*"><select lemma="robusto" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="full" tags="n.m.*"><select lemma="folla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="full" tags="n.m.*"><select lemma="chapa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="full" tags="n.m.*"><select lemma="coitela" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="funda" tags="n.f.*"><select lemma="manga" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="funda" tags="n.f.*"><select lemma="cuberta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="funda" tags="n.f.*"><select lemma="portada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="funda" tags="n.f.*"><select lemma="chaqueta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="funda" tags="n.f.*"><select lemma="mangueira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="furgar" tags="vblex.*"><select lemma="fozar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="furgar" tags="vblex.*"><select lemma="furgar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="furgar" tags="vblex.*"><select lemma="fochicar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="furgar" tags="vblex.*"><select lemma="escarvar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="furgar" tags="vblex.*"><select lemma="escaravellar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="furiós" tags="adj.*"><select lemma="irado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="furiós" tags="adj.*"><select lemma="furioso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="furiós" tags="adj.*"><select lemma="carraxento" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gallina" tags="n.f.*"><select lemma="galiña" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gallina" tags="n.f.*"><select lemma="churra" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gallina" tags="n.f.*"><select lemma="pita" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="galta" tags="n.f.*"><select lemma="moufa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="galta" tags="n.f.*"><select lemma="fazula" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="galta" tags="n.f.*"><select lemma="meixela" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gat" tags="n.f.*"><select lemma="gato" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gat" tags="n.f.*"><select lemma="mico" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gat" tags="n.f.*"><select lemma="micho" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gat" tags="n.m.*"><select lemma="gato" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gat" tags="n.m.*"><select lemma="mico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gat" tags="n.m.*"><select lemma="micho" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gaudir# de" tags="vblex.*"><select lemma="gostar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gaudir# de" tags="vblex.*"><select lemma="gozar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gaudir# de" tags="vblex.*"><select lemma="gozar# con" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gaudir# de" tags="vblex.*"><select lemma="deleitarse" tags="vblex.pron.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gemec" tags="n.m.*"><select lemma="laio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gemec" tags="n.m.*"><select lemma="xemido" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gemec" tags="n.m.*"><select lemma="salaio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gemec" tags="n.m.*"><select lemma="queixa" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gra" tags="n.m.*"><select lemma="gran" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gra" tags="n.m.*"><select lemma="sitio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gra" tags="n.m.*"><select lemma="mancha" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gras" tags="adj.*"><select lemma="graxo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gras" tags="adj.*"><select lemma="gordo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gras" tags="adj.*"><select lemma="gordecho" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gronxador" tags="n.m.*"><select lemma="randeeira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gronxador" tags="n.m.*"><select lemma="cambio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gronxador" tags="n.m.*"><select lemma="bambán" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gronxador" tags="n.m.*"><select lemma="oscilación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gronxar" tags="vblex.*"><select lemma="mecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gronxar" tags="vblex.*"><select lemma="mexer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gronxar" tags="vblex.*"><select lemma="sacudir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="gruar" tags="vblex.*"><select lemma="degoar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gruar" tags="vblex.*"><select lemma="desexar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gruar" tags="vblex.*"><select lemma="devecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gruar" tags="vblex.*"><select lemma="gorentar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="gruar" tags="vblex.*"><select lemma="degoirar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="guia" tags="n.m.*"><select lemma="guía" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="guia" tags="n.m.*"><select lemma="guía" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="guia" tags="n.m.*"><select lemma="guieiro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="horroritzar" tags="vblex.*"><select lemma="arrepiar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="horroritzar" tags="vblex.*"><select lemma="aterrecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="horroritzar" tags="vblex.*"><select lemma="horrorizar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="il·luminar" tags="vblex.*"><select lemma="iluminar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="il·luminar" tags="vblex.*"><select lemma="alumear" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="il·luminar" tags="vblex.*"><select lemma="alumar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="implicar" tags="vblex.*"><select lemma="implicar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="implicar" tags="vblex.*"><select lemma="carretar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="implicar" tags="vblex.*"><select lemma="carrexar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="infant" tags="n.m.*"><select lemma="neno" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="infant" tags="n.m.*"><select lemma="cativo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="infant" tags="n.m.*"><select lemma="meniño" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="infant" tags="n.m.*"><select lemma="pícaro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="infant" tags="n.m.*"><select lemma="infante" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="insostenible" tags="adj.*"><select lemma="insostible" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="insostenible" tags="adj.*"><select lemma="insostíbel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="insostenible" tags="adj.*"><select lemma="insustentable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="insostenible" tags="adj.*"><select lemma="insustentábel" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="interlocutor" tags="n.*"><select lemma="interlocutor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="interlocutor" tags="n.*"><select lemma="relator" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="interlocutor" tags="n.*"><select lemma="altofalante" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="interlocutor" tags="n.*"><select lemma="falante" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="interminable" tags="adj.*"><select lemma="inesgotábel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="interminable" tags="adj.*"><select lemma="interminable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="interminable" tags="adj.*"><select lemma="interminábel" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ironia" tags="n.f.*"><select lemma="ironía" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ironia" tags="n.f.*"><select lemma="sorna" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ironia" tags="n.f.*"><select lemma="retranca" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="jet" tags="n.m.*"><select lemma="chorro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="jet" tags="n.m.*"><select lemma="reactor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="jet" tags="n.m.*"><select lemma="acibeche" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="jugada" tags="n.f.*"><select lemma="xogada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="jugada" tags="n.f.*"><select lemma="falcatrúa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="jugada" tags="n.f.*"><select lemma="falcatruada" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="lament" tags="n.m.*"><select lemma="laio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lament" tags="n.m.*"><select lemma="laído" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lament" tags="n.m.*"><select lemma="queixume" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="límit" tags="n.m.*"><select lemma="límite" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="límit" tags="n.m.*"><select lemma="magote" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="límit" tags="n.m.*"><select lemma="beiril" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="límit" tags="n.m.*"><select lemma="estremo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="límit" tags="n.m.*"><select lemma="andaboi" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="límit" tags="n.m.*"><select lemma="estremeiro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="link" tags="n.m.*"><select lemma="elo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="link" tags="n.m.*"><select lemma="atadura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="link" tags="n.m.*"><select lemma="ligazón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="link" tags="n.m.*"><select lemma="vínculo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="llàgrima" tags="n.f.*"><select lemma="lágrima" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llàgrima" tags="n.f.*"><select lemma="bagulla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llàgrima" tags="n.f.*"><select lemma="bágoa" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="llançar" tags="vblex.*"><select lemma="arroxar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llançar" tags="vblex.*"><select lemma="lanzar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llançar" tags="vblex.*"><select lemma="guindar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llançar" tags="vblex.*"><select lemma="arrebolar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="llar" tags="n.f.*"><select lemma="lar" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llar" tags="n.f.*"><select lemma="casa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llar" tags="n.f.*"><select lemma="fogar" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="llenguatge" tags="n.m.*"><select lemma="idioma" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llenguatge" tags="n.m.*"><select lemma="linguaxe" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llenguatge" tags="n.m.*"><select lemma="lingua" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="lligar" tags="vblex.*"><select lemma="anoar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lligar" tags="vblex.*"><select lemma="atar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lligar" tags="vblex.*"><select lemma="ligar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="lloc" tags="n.m.*"><select lemma="sitio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lloc" tags="n.m.*"><select lemma="lugar" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lloc" tags="n.m.*"><select lemma="posto" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="lloguer" tags="n.m.*"><select lemma="aluguer" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lloguer" tags="n.m.*"><select lemma="arrendo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lloguer" tags="n.m.*"><select lemma="alugueiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="lloguer" tags="n.m.*"><select lemma="alugamento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="llom" tags="n.m.*"><select lemma="raxo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llom" tags="n.m.*"><select lemma="lombo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="llom" tags="n.m.*"><select lemma="carrelo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mag" tags="n.*"><select lemma="mago" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mag" tags="n.*"><select lemma="meigo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mag" tags="n.*"><select lemma="bruxo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mag" tags="n.m.*"><select lemma="mago" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mag" tags="n.m.*"><select lemma="meigo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mag" tags="n.m.*"><select lemma="bruxo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="maldat" tags="n.f.*"><select lemma="malura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="maldat" tags="n.f.*"><select lemma="maldade" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="maldat" tags="n.f.*"><select lemma="malfeitoría" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mania" tags="n.f.*"><select lemma="manía" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mania" tags="n.f.*"><select lemma="teima" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mania" tags="n.f.*"><select lemma="zuna" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mania" tags="n.f.*"><select lemma="xenreira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mare" tags="n.f.*"><select lemma="nai" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mare" tags="n.f.*"><select lemma="mai" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mare" tags="n.f.*"><select lemma="madre" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mare" tags="n.f.*"><select lemma="criadeira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="matinada" tags="n.f.*"><select lemma="luzada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="matinada" tags="n.f.*"><select lemma="madrugada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="matinada" tags="n.f.*"><select lemma="mañanciña" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="matí" tags="n.m.*"><select lemma="mañá" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="matí" tags="n.m.*"><select lemma="luzada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="matí" tags="n.m.*"><select lemma="rompente" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="matí" tags="n.m.*"><select lemma="madrugada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="matí" tags="n.m.*"><select lemma="mañanciña" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="menjar" tags="n.m.*"><select lemma="comida" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menjar" tags="n.m.*"><select lemma="alimento" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menjar" tags="n.m.*"><select lemma="alimentación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="menut" tags="adj.*"><select lemma="pequeno" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menut" tags="adj.*"><select lemma="pequecho" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menut" tags="adj.*"><select lemma="pequerrecho" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="menyspreable" tags="adj.*"><select lemma="desdeñable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menyspreable" tags="adj.*"><select lemma="desdeñábel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menyspreable" tags="adj.*"><select lemma="despreciable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menyspreable" tags="adj.*"><select lemma="despreciábel" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="menysprear" tags="vblex.*"><select lemma="desdeñar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menysprear" tags="vblex.*"><select lemma="desprezar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="menysprear" tags="vblex.*"><select lemma="menosprezar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="migcampista" tags="n.mf.*"><select lemma="mediocentro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="migcampista" tags="n.mf.*"><select lemma="mediocampista" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="migcampista" tags="n.mf.*"><select lemma="centrocampista" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="minuciós" tags="adj.*"><select lemma="minucioso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="minuciós" tags="adj.*"><select lemma="meticuloso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="minuciós" tags="adj.*"><select lemma="puntilloso" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mirada" tags="n.f.*"><select lemma="ollada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mirada" tags="n.f.*"><select lemma="facha" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mirada" tags="n.f.*"><select lemma="mirada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mirada" tags="n.f.*"><select lemma="aspecto" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="misèria" tags="n.f.*"><select lemma="miseria" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="misèria" tags="n.f.*"><select lemma="pioca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="misèria" tags="n.f.*"><select lemma="cativeza" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="misèria" tags="n.f.*"><select lemma="mesquindade" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="morir" tags="vblex.*"><select lemma="finar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="morir" tags="vblex.*"><select lemma="morrer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="morir" tags="vblex.*"><select lemma="falecer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mosso" tags="n.*"><select lemma="criado" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mosso" tags="n.*"><select lemma="criado" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="mosso" tags="n.*"><select lemma="criado" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="munyir" tags="vblex.*"><select lemma="munxir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="munyir" tags="vblex.*"><select lemma="muxir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="munyir" tags="vblex.*"><select lemma="munguir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="neno" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="mozo" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="chico" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="meniño" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="cativo" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="pícaro" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.f.*"><select lemma="raparigo" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.m.*"><select lemma="neno" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.m.*"><select lemma="meniño" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.m.*"><select lemma="cativo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nen" tags="n.m.*"><select lemma="pícaro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="noces" tags="n.f.*"><select lemma="voda" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noces" tags="n.f.*"><select lemma="casorio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noces" tags="n.f.*"><select lemma="nupcias" tags="n.f.pl.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noces" tags="n.f.*"><select lemma="casamento" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noces" tags="n.f.*"><select lemma="esponsais" tags="n.m.pl.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="neno" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="mozo" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="chico" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="meniño" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="cativo" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="pícaro" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.f.*"><select lemma="raparigo" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.m.*"><select lemma="mozo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.m.*"><select lemma="chico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="noi" tags="n.m.*"><select lemma="raparigo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="nota" tags="n.f.*"><select lemma="nota" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nota" tags="n.f.*"><select lemma="nótula" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nota" tags="n.f.*"><select lemma="notación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="nu" tags="adj.*"><select lemma="nu" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nu" tags="adj.*"><select lemma="espido" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="nu" tags="adj.*"><select lemma="despido" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="obrir" tags="vblex.*"><select lemma="abrir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obrir" tags="vblex.*"><select lemma="despechar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obrir" tags="vblex.*"><select lemma="desencartar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="obstinar" tags="vblex.*"><select lemma="teimar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obstinar" tags="vblex.*"><select lemma="empeñar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obstinar" tags="vblex.*"><select lemma="peñorar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="obturar" tags="vblex.*"><select lemma="afogar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obturar" tags="vblex.*"><select lemma="atragoar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obturar" tags="vblex.*"><select lemma="atrancar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obturar" tags="vblex.*"><select lemma="esganarse" tags="vblex.pron.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obturar" tags="vblex.*"><select lemma="atragoarse" tags="vblex.pron.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="obturar" tags="vblex.*"><select lemma="estrangularse" tags="vblex.pron.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ofegar-se" tags="vblex.pron.*"><select lemma="inundar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ofegar-se" tags="vblex.pron.*"><select lemma="afogar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ofegar-se" tags="vblex.pron.*"><select lemma="alagar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ofegar" tags="vblex.*"><select lemma="afogar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ofegar" tags="vblex.*"><select lemma="acorar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ofegar" tags="vblex.*"><select lemma="abafar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ofegar" tags="vblex.*"><select lemma="esganar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="oferir" tags="vblex.*"><select lemma="ofertar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="oferir" tags="vblex.*"><select lemma="ofrecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="oferir" tags="vblex.*"><select lemma="deparar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="oïda" tags="n.f.*"><select lemma="oído" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="oïda" tags="n.f.*"><select lemma="vista" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="oïda" tags="n.f.*"><select lemma="ouvido" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="oïda" tags="n.f.*"><select lemma="audición" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="olor" tags="n.f.*"><select lemma="odor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="olor" tags="n.f.*"><select lemma="olor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="olor" tags="n.f.*"><select lemma="ulido" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="olor" tags="n.f.*"><select lemma="cheiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="olor" tags="n.f.*"><select lemma="olfacto" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ombrívol" tags="adj.*"><select lemma="avesedo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ombrívol" tags="adj.*"><select lemma="avesío" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ombrívol" tags="adj.*"><select lemma="sombrizo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ombrívol" tags="adj.*"><select lemma="sombrío" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ombrívol" tags="adj.*"><select lemma="fusco" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ordre" tags="n.f.*"><select lemma="orde" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ordre" tags="n.f.*"><select lemma="encargo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ordre" tags="n.f.*"><select lemma="dominio" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="origen" tags="n.m.*"><select lemma="orixe" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="origen" tags="n.m.*"><select lemma="procedencia" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="origen" tags="n.m.*"><select lemma="proveniencia" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pallissa" tags="n.f.*"><select lemma="soba" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pallissa" tags="n.f.*"><select lemma="tunda" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pallissa" tags="n.f.*"><select lemma="boura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pallissa" tags="n.f.*"><select lemma="malleira" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pansir-se" tags="vblex.pron.*"><select lemma="esvaecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pansir-se" tags="vblex.pron.*"><select lemma="murchar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pansir-se" tags="vblex.pron.*"><select lemma="destinguir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pansir-se" tags="vblex.pron.*"><select lemma="destinxir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pas" tags="n.m.*"><select lemma="paso" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pas" tags="n.m.*"><select lemma="banzo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pas" tags="n.m.*"><select lemma="morte" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pas" tags="n.m.*"><select lemma="pasaxe" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pastor" tags="n.m.*"><select lemma="pastor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pastor" tags="n.m.*"><select lemma="boieiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pastor" tags="n.m.*"><select lemma="cabreiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pastor" tags="n.m.*"><select lemma="alindador" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pastor" tags="n.m.*"><select lemma="pegureiro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="patrimoni" tags="n.m.*"><select lemma="acervo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="patrimoni" tags="n.m.*"><select lemma="peculio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="patrimoni" tags="n.m.*"><select lemma="patrimonio" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="patró" tags="n.f.*"><select lemma="amo" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="patró" tags="n.f.*"><select lemma="patrón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="patró" tags="n.f.*"><select lemma="mestre" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pendent" tags="n.m.*"><select lemma="rampla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pendent" tags="n.m.*"><select lemma="ladeira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pendent" tags="n.m.*"><select lemma="pendente" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pendent" tags="n.m.*"><select lemma="vertente" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="penjar" tags="vblex.*"><select lemma="colgar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="penjar" tags="vblex.*"><select lemma="pender" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="penjar" tags="vblex.*"><select lemma="aforcar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="penjar" tags="vblex.*"><select lemma="pendurar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="permissible" tags="adj.*"><select lemma="admisible" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="permissible" tags="adj.*"><select lemma="admisíbel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="permissible" tags="adj.*"><select lemma="permisible" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="permissible" tags="adj.*"><select lemma="permisíbel" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="petit" tags="adj.*"><select lemma="pequeno" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="petit" tags="adj.*"><select lemma="pequecho" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="petit" tags="adj.*"><select lemma="pequerrecho" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pic" tags="n.m.*"><select lemma="pico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pic" tags="n.m.*"><select lemma="picouto" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pic" tags="n.m.*"><select lemma="peteiro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="picor" tags="n.m.*"><select lemma="proído" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="picor" tags="n.m.*"><select lemma="comichón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="picor" tags="n.m.*"><select lemma="comechón" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="picor" tags="n.m.*"><select lemma="comechume" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="plantilla" tags="n.f.*"><select lemma="equipo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="plantilla" tags="n.f.*"><select lemma="modelo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="plantilla" tags="n.f.*"><select lemma="cadro de persoal" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="planxa" tags="n.f.*"><select lemma="placa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="planxa" tags="n.f.*"><select lemma="prato" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="planxa" tags="n.f.*"><select lemma="ferro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="planxa" tags="n.f.*"><select lemma="lámina" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="planxa" tags="n.f.*"><select lemma="prancha" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="poblat" tags="n.m.*"><select lemma="aldea" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="poblat" tags="n.m.*"><select lemma="poboado" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="poblat" tags="n.m.*"><select lemma="poboación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pobre" tags="adj.*"><select lemma="pobre" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pobre" tags="adj.*"><select lemma="coitado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pobre" tags="adj.*"><select lemma="indixente" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ponent" tags="n.mf.*"><select lemma="relator" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ponent" tags="n.mf.*"><select lemma="falante" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ponent" tags="n.mf.*"><select lemma="altofalante" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ponent" tags="n.mf.*"><select lemma="interlocutor" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="porc" tags="n.m.*"><select lemma="cocho" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="porc" tags="n.m.*"><select lemma="porco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="porc" tags="n.m.*"><select lemma="marrán" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="portar" tags="vblex.*"><select lemma="portar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="portar" tags="vblex.*"><select lemma="traer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="portar" tags="vblex.*"><select lemma="levar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="porter" tags="n.m.*"><select lemma="cérbero" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="porter" tags="n.m.*"><select lemma="porteiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="porter" tags="n.m.*"><select lemma="gardameta" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="posar" tags="vblex.*"><select lemma="pór" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="posar" tags="vblex.*"><select lemma="posar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="posar" tags="vblex.*"><select lemma="poñer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="posar" tags="vblex.*"><select lemma="pousar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="precís" tags="adj.*"><select lemma="atinado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="precís" tags="adj.*"><select lemma="preciso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="precís" tags="adj.*"><select lemma="certeiro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="predecessor" tags="n.*"><select lemma="antergo" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="predecessor" tags="n.*"><select lemma="antecesor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="predecessor" tags="n.*"><select lemma="predecesor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="predecessor" tags="n.*"><select lemma="devanceiro" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="preestrena" tags="n.f.*"><select lemma="anteestrea" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="preestrena" tags="n.f.*"><select lemma="tráiler" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="preestrena" tags="n.f.*"><select lemma="previsualización" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pregon" tags="adj.*"><select lemma="fondo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pregon" tags="adj.*"><select lemma="sentido" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pregon" tags="adj.*"><select lemma="profundo" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="presoner" tags="n.*"><select lemma="preso" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="presoner" tags="n.*"><select lemma="recluso" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="presoner" tags="n.*"><select lemma="prisioneiro" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="professor" tags="n.*"><select lemma="profesor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="professor" tags="n.*"><select lemma="mestre" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="professor" tags="n.*"><select lemma="docente" tags="n.\.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="propina" tags="n.f.*"><select lemma="propina" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="propina" tags="n.f.*"><select lemma="punta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="propina" tags="n.f.*"><select lemma="consello" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="proveïdor" tags="n.f.*"><select lemma="provedor" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="proveïdor" tags="n.f.*"><select lemma="fornecedor" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="proveïdor" tags="n.f.*"><select lemma="subministrador" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="pudor" tags="n.m.*"><select lemma="pudor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pudor" tags="n.m.*"><select lemma="fedor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="pudor" tags="n.m.*"><select lemma="trafego" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="puja" tags="n.f.*"><select lemma="suba" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="puja" tags="n.f.*"><select lemma="subida" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="puja" tags="n.f.*"><select lemma="aumento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="punxada" tags="n.f.*"><select lemma="picada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="punxada" tags="n.f.*"><select lemma="picadela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="punxada" tags="n.f.*"><select lemma="picadura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="chispa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="moxena" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="muxica" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="faísca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="chareta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="muchica" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="chamusca" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="charamela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="purna" tags="n.f.*"><select lemma="charamuza" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="queix" tags="n.m.*"><select lemma="xunta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="queix" tags="n.m.*"><select lemma="xuntanza" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="queix" tags="n.m.*"><select lemma="articulación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="radiant" tags="adj.*"><select lemma="radiante" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="radiant" tags="adj.*"><select lemma="fulxente" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="radiant" tags="adj.*"><select lemma="coruscante" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ramader" tags="n.*"><select lemma="labrego" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ramader" tags="n.*"><select lemma="gandeiro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ramader" tags="n.*"><select lemma="labrador" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="rascada" tags="n.f.*"><select lemma="rabuño" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rascada" tags="n.f.*"><select lemma="gaduñada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rascada" tags="n.f.*"><select lemma="rabuñada" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rascada" tags="n.f.*"><select lemma="rabuñadura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rascada" tags="n.f.*"><select lemma="esfoladura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="raval" tags="n.m.*"><select lemma="alfoz" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="raval" tags="n.m.*"><select lemma="suburbio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="raval" tags="n.m.*"><select lemma="arrabalde" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="recapitulació" tags="n.f.*"><select lemma="resumo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recapitulació" tags="n.f.*"><select lemma="sumario" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recapitulació" tags="n.f.*"><select lemma="recapitulación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="reclús" tags="n.f.*"><select lemma="preso" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="reclús" tags="n.f.*"><select lemma="recluso" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="reclús" tags="n.f.*"><select lemma="prisioneiro" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="recollida" tags="n.f.*"><select lemma="recolla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recollida" tags="n.f.*"><select lemma="cobro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recollida" tags="n.f.*"><select lemma="colección" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recollida" tags="n.f.*"><select lemma="recadación" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="recordar" tags="vblex.*"><select lemma="acordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recordar" tags="vblex.*"><select lemma="recordar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recordar" tags="vblex.*"><select lemma="lembrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="recordar" tags="vblex.*"><select lemma="concordar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.*"><select lemma="rexedor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.*"><select lemma="concelleiro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.*"><select lemma="concelleiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.*"><select lemma="concelleiro" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.f.*"><select lemma="rexedor" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.f.*"><select lemma="concelleiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="regidor" tags="n.f.*"><select lemma="concelleiro" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="repartiment" tags="n.m.*"><select lemma="repartición" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="repartiment" tags="n.m.*"><select lemma="disposición" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="repartiment" tags="n.m.*"><select lemma="distribución" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="reposar" tags="vblex.*"><select lemma="repor" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="reposar" tags="vblex.*"><select lemma="repoñer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="reposar" tags="vblex.*"><select lemma="repousar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ressenya" tags="n.f.*"><select lemma="reseña" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ressenya" tags="n.f.*"><select lemma="revisión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ressenya" tags="n.f.*"><select lemma="revista" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="retardar" tags="vblex.*"><select lemma="atrasar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="retardar" tags="vblex.*"><select lemma="adiar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="retardar" tags="vblex.*"><select lemma="retardar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="riba" tags="n.f.*"><select lemma="orela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="riba" tags="n.f.*"><select lemma="beira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="riba" tags="n.f.*"><select lemma="ourela" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="rierol" tags="n.m.*"><select lemma="arroio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rierol" tags="n.m.*"><select lemma="regato" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rierol" tags="n.m.*"><select lemma="rego" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rierol" tags="n.m.*"><select lemma="regueiro" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="rotlle" tags="n.m.*"><select lemma="roda" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rotlle" tags="n.m.*"><select lemma="rolo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="rotlle" tags="n.m.*"><select lemma="bolo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="sacerdot" tags="n.f.*"><select lemma="crego" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sacerdot" tags="n.f.*"><select lemma="cura" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sacerdot" tags="n.f.*"><select lemma="sacerdote" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="sec" tags="adj.*"><select lemma="seco" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sec" tags="adj.*"><select lemma="reseco" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sec" tags="adj.*"><select lemma="murcho" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="seguidor" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="seareiro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="abanico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="abano" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="fan" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="afeccionado" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seguidor" tags="n.*"><select lemma="ventilador" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="sentir" tags="vblex.*"><select lemma="sentir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sentir" tags="vblex.*"><select lemma="ouvir" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sentir" tags="vblex.*"><select lemma="oír" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="seny" tags="n.m.*"><select lemma="cordura" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seny" tags="n.m.*"><select lemma="sensatez" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="seny" tags="n.m.*"><select lemma="sabedoría" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="Senyor" tags="n.f.*"><select lemma="Señor" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Senyor" tags="n.f.*"><select lemma="Sra." tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Senyor" tags="n.f.*"><select lemma="dono" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Senyor" tags="n.f.*"><select lemma="Señor" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="solapar" tags="vblex.*"><select lemma="solapar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="solapar" tags="vblex.*"><select lemma="sobrepor" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="solapar" tags="vblex.*"><select lemma="sobrepoñer" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="sorprendre" tags="vblex.*"><select lemma="sorprender" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sorprendre" tags="vblex.*"><select lemma="asombrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sorprendre" tags="vblex.*"><select lemma="abraiar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="sorpresa" tags="n.f.*"><select lemma="sorpresa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sorpresa" tags="n.f.*"><select lemma="asombro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sorpresa" tags="n.f.*"><select lemma="abraio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sorpresa" tags="n.f.*"><select lemma="estupefacción" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="sostenible" tags="adj.*"><select lemma="sostible" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sostenible" tags="adj.*"><select lemma="sostíbel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sostenible" tags="adj.*"><select lemma="sustentable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="sostenible" tags="adj.*"><select lemma="sustentábel" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="Sra." tags="n.f.*"><select lemma="Sra." tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Sra." tags="n.f.*"><select lemma="dono" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Sra." tags="n.f.*"><select lemma="Señor" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="Sr." tags="n.m.*"><select lemma="Sr." tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Sr." tags="n.m.*"><select lemma="don" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="Sr." tags="n.m.*"><select lemma="Señor" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="subterrani" tags="n.m.*"><select lemma="metro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="subterrani" tags="n.m.*"><select lemma="vangarda" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="subterrani" tags="n.m.*"><select lemma="underground" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="suc" tags="n.m.*"><select lemma="zume" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="suc" tags="n.m.*"><select lemma="prebe" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="suc" tags="n.m.*"><select lemma="mollo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="suportable" tags="adj.*"><select lemma="soportable" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="suportable" tags="adj.*"><select lemma="soportábel" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="suportable" tags="adj.*"><select lemma="levadío" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="supurar" tags="vblex.*"><select lemma="liberar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="supurar" tags="vblex.*"><select lemma="descargar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="supurar" tags="vblex.*"><select lemma="licenciar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="taló" tags="n.m.*"><select lemma="talón" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="taló" tags="n.m.*"><select lemma="tacón" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="taló" tags="n.m.*"><select lemma="calcaño" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="taló" tags="n.m.*"><select lemma="calcañar" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tancament" tags="n.m.*"><select lemma="pecho" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tancament" tags="n.m.*"><select lemma="peche" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tancament" tags="n.m.*"><select lemma="cerramento" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tanca" tags="n.f.*"><select lemma="sebe" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tanca" tags="n.f.*"><select lemma="valo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tanca" tags="n.f.*"><select lemma="protección" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tancar" tags="vblex.*"><select lemma="cerrar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tancar" tags="vblex.*"><select lemma="pechar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tancar" tags="vblex.*"><select lemma="fechar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tancar" tags="vblex.*"><select lemma="encerrar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="temorós" tags="adj.*"><select lemma="témero" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="temorós" tags="adj.*"><select lemma="medroso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="temorós" tags="adj.*"><select lemma="medorento" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tèrbol" tags="adj.*"><select lemma="avolto" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tèrbol" tags="adj.*"><select lemma="turbio" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tèrbol" tags="adj.*"><select lemma="túrbido" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tèrbol" tags="adj.*"><select lemma="turbulento" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="terra" tags="n.m.*"><select lemma="solo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="terra" tags="n.m.*"><select lemma="chan" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="terra" tags="n.m.*"><select lemma="piso" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="terra" tags="n.m.*"><select lemma="terra" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="thriller" tags="n.m.*"><select lemma="thriller" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="thriller" tags="n.m.*"><select lemma="filme de suspense" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="thriller" tags="n.m.*"><select lemma="película de suspense" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tirar" tags="vblex.*"><select lemma="tirar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tirar" tags="vblex.*"><select lemma="botar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tirar" tags="vblex.*"><select lemma="chimpar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="torçada" tags="n.f.*"><select lemma="presión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="torçada" tags="n.f.*"><select lemma="tensión" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="torçada" tags="n.f.*"><select lemma="escordadura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tornar" tags="vblex.*"><select lemma="tornar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tornar" tags="vblex.*"><select lemma="volver" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tornar" tags="vblex.*"><select lemma="regresar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="torn" tags="n.m.*"><select lemma="volta" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="torn" tags="n.m.*"><select lemma="cambio" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="torn" tags="n.m.*"><select lemma="quenda" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="traç" tags="n.m.*"><select lemma="trazo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="traç" tags="n.m.*"><select lemma="golpe" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="traç" tags="n.m.*"><select lemma="ataque" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="transbordament" tags="n.m.*"><select lemma="traspaso" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="transbordament" tags="n.m.*"><select lemma="traslado" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="transbordament" tags="n.m.*"><select lemma="transbordo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="transbordament" tags="n.m.*"><select lemma="transferencia" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="transbord" tags="n.m.*"><select lemma="traspaso" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="transbord" tags="n.m.*"><select lemma="traslado" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="transbord" tags="n.m.*"><select lemma="transbordo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="transbord" tags="n.m.*"><select lemma="transferencia" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="trastornar" tags="vblex.*"><select lemma="empecer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trastornar" tags="vblex.*"><select lemma="estorbar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trastornar" tags="vblex.*"><select lemma="perturbar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trastornar" tags="vblex.*"><select lemma="trastornar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trastornar" tags="vblex.*"><select lemma="desgustar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="travessa" tags="n.f.*"><select lemma="quiniela" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="travessa" tags="n.f.*"><select lemma="travesa" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="travessa" tags="n.f.*"><select lemma="travesía" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="treballador" tags="n.*"><select lemma="operario" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="treballador" tags="n.*"><select lemma="obreiro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="treballador" tags="n.*"><select lemma="traballador" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tret" tags="n.m.*"><select lemma="trazo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tret" tags="n.m.*"><select lemma="disparo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tret" tags="n.m.*"><select lemma="pistoletazo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="trist" tags="adj.*"><select lemma="mouco" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trist" tags="adj.*"><select lemma="triste" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trist" tags="adj.*"><select lemma="tristeiro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="trobar" tags="vblex.*"><select lemma="atopar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trobar" tags="vblex.*"><select lemma="achar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="trobar" tags="vblex.*"><select lemma="encontrar" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="tros" tags="n.m.*"><select lemma="anaco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tros" tags="n.m.*"><select lemma="chisco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tros" tags="n.m.*"><select lemma="pedazo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tros" tags="n.m.*"><select lemma="trisco" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="turó" tags="n.m.*"><select lemma="cerro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="turó" tags="n.m.*"><select lemma="cerrizo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="turó" tags="n.m.*"><select lemma="cotarelo" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="un." tags="n.f.*"><select lemma="un." tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="un." tags="n.f.*"><select lemma="ud." tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="un." tags="n.f.*"><select lemma="unidade" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="untar" tags="vblex.*"><select lemma="untar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="untar" tags="vblex.*"><select lemma="divulgar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="untar" tags="vblex.*"><select lemma="estender" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="vago" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="moulón" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="galbán" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="louzán" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="mamalón" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="lacazán" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="nugallán" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vague" tags="adj.*"><select lemma="preguiceiro" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="valent" tags="adj.*"><select lemma="bravo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="valent" tags="adj.*"><select lemma="valente" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="valent" tags="adj.*"><select lemma="peitudo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="valent" tags="adj.*"><select lemma="valoroso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="valent" tags="adj.*"><select lemma="destemido" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="ventilador" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="abanico" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="abano" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="fan" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="seareiro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="seguidor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ventilador" tags="n.m.*"><select lemma="afeccionado" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="vergonyós" tags="adj.*"><select lemma="vergoñoso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vergonyós" tags="adj.*"><select lemma="vergonzoso" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vergonyós" tags="adj.*"><select lemma="vergoñento" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="vermellós" tags="adj.*"><select lemma="encarnado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vermellós" tags="adj.*"><select lemma="arrubiado" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vermellós" tags="adj.*"><select lemma="roibo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vermellós" tags="adj.*"><select lemma="rubio" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vermellós" tags="adj.*"><select lemma="avermellado" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="vessant" tags="n.m.*"><select lemma="rampla" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vessant" tags="n.m.*"><select lemma="ladeira" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vessant" tags="n.m.*"><select lemma="vertente" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="vessant" tags="n.m.*"><select lemma="pendente" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="virolla" tags="n.f.*"><select lemma="trompo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="virolla" tags="n.f.*"><select lemma="anel" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="virolla" tags="n.f.*"><select lemma="aro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="virolla" tags="n.f.*"><select lemma="buxaina" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="virolla" tags="n.f.*"><select lemma="círculo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="virolla" tags="n.f.*"><select lemma="cerco" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="xassís" tags="n.m.*"><select lemma="marco" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xassís" tags="n.m.*"><select lemma="bastidor" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xassís" tags="n.m.*"><select lemma="estrutura" tags="n.f.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="xic" tags="adj.*"><select lemma="pequeno" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xic" tags="adj.*"><select lemma="pequecho" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xic" tags="adj.*"><select lemma="pequerrecho" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="xic" tags="n.*"><select lemma="mozo" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xic" tags="n.*"><select lemma="chico" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xic" tags="n.*"><select lemma="raparigo" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="xicotet" tags="adj.*"><select lemma="pequeno" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicotet" tags="adj.*"><select lemma="pequecho" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicotet" tags="adj.*"><select lemma="pequerrecho" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="neno" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="mozo" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="chico" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="rapaz" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="meniño" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="cativo" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="pícaro" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xicot" tags="n.*"><select lemma="raparigo" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="xiïta" tags="adj.*"><select lemma="xiíta" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiïta" tags="adj.*"><select lemma="chií" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiïta" tags="adj.*"><select lemma="chiíta" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="xiïta" tags="n.mf.*"><select lemma="xiíta" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiïta" tags="n.mf.*"><select lemma="chií" tags="n.mf.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiïta" tags="n.mf.*"><select lemma="chiíta" tags="n.mf.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="ximple" tags="adj.*"><select lemma="parvo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ximple" tags="adj.*"><select lemma="bobo" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ximple" tags="adj.*"><select lemma="babiolo" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="xiquet" tags="n.m.*"><select lemma="neno" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiquet" tags="n.m.*"><select lemma="meniño" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiquet" tags="n.m.*"><select lemma="cativo" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiquet" tags="n.m.*"><select lemma="pícaro" tags="n.m.*"/></match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="xiquet" tags="n.m.*"><select lemma="raparigo" tags="n.m.*"/></match>
+  </rule>
 
 
 </rules>

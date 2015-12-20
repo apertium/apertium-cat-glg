@@ -20,7 +20,7 @@
       <program name="lt-proc -b">
         <file name="cat-glg.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="cat-glg.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -154,7 +154,7 @@
       <program name="lt-proc -b">
         <file name="cat-glg.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t">
+      <program name="lrx-proc -m -t">
         <file name="cat-glg.autolex.bin"/>
       </program>
     </pipeline>
@@ -177,7 +177,7 @@
       <program name="lt-proc -b">
         <file name="cat-glg.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="cat-glg.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
@@ -206,7 +206,7 @@
       <program name="lt-proc -b">
         <file name="glg-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="glg-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -340,7 +340,7 @@
       <program name="lt-proc -b">
         <file name="glg-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="glg-cat.autolex.bin"/>
       </program>
     </pipeline>
