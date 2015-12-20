@@ -40,6 +40,7 @@
     <sdef n="p2"    c=""/>
     <sdef n="p3"    c=""/>
     <sdef n="sp"    c=""/>
+    <sdef n="sup"    c=""/>
     <sdef n="cm"    c=""/>
     <sdef n="lpar"    c=""/>
     <sdef n="rpar"    c=""/>
@@ -247,9 +248,11 @@
 
       <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>em<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>o<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+      <!--<e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>-->
+      <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <!--<e><p><l>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>-->
+      <e><p><l>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
       <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
@@ -286,8 +289,23 @@
 
     <e><p><l>tot<s n="prn"/><s n="tn"/></l><r>todo<s n="prn"/><s n="tn"/></r></p></e>
 
+    <e><p><l>molt<s n="prn"/><s n="tn"/></l><r>moito<s n="prn"/><s n="tn"/></r></p></e>
+
+    <e><p><l>ningú<s n="prn"/><s n="tn"/><s n="mf"/></l><r>ninguén<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>ningú<s n="prn"/><s n="tn"/><s n="mf"/></l><r>ningún<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+
 
       <!-- SECTION: Determiners -->
+
+    <e><p><l>molt<s n="adj"/></l><r>moito<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>molt<s n="adj"/><s n="sup"/></l><r>moito<s n="det"/><s n="qnt"/></r></p></e>
+
+    <e><p><l>tant<s n="adj"/></l><r>tanto<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>tant<s n="adj"/></l><r>tanto<s n="det"/><s n="qnt"/></r></p></e>
+
+    <e r="LR"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/></l><r>ningún<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/></l><r>ningún<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>cap<s n="det"/><s n="ind"/><s n="mf"/></l><r>ningún<s n="det"/><s n="ind"/><s n="f"/></r></p></e>
 
     <e><p><l>aquest<s n="det"/><s n="dem"/></l><r>este<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>aquell<s n="det"/><s n="dem"/></l><r>aquel<s n="det"/><s n="dem"/></r></p></e>
@@ -18235,6 +18253,7 @@
       <e><p><l>habituar<s n="vblex"/></l><r>habituar<s n="vblex"/></r></p></e>
       <e><p><l>parlar<s n="vblex"/></l><r>falar<s n="vblex"/></r></p></e>
       <e><p><l>fer<s n="vblex"/></l><r>facer<s n="vblex"/></r></p></e>
+      <e><p><l>fer<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
       <e><p><l>trobar<s n="vblex"/></l><r>achar<s n="vblex"/></r></p></e>
       <e><p><l>afartar<s n="vblex"/></l><r>fartar<s n="vblex"/></r></p></e>
       <e><p><l>fetillar<s n="vblex"/></l><r>enfeitizar<s n="vblex"/></r></p></e>

@@ -315,6 +315,8 @@
         </def-attr>
         
         <def-attr n="a_adjec">          
+            <attr-item tags="det.qnt"/> <!-- for moito -->
+            <attr-item tags="det.ind"/> <!-- for tanto -->
             <attr-item tags="adj.ind"/>
             <attr-item tags="adj.sup"/>
             <attr-item tags="adj.itg"/>
@@ -547,7 +549,7 @@
     <list-item v="caminar"/>
     <list-item v="dirigir"/>
     <list-item v="apropar"/>
-    <list-item v="cï¿½rrer"/>
+    <list-item v="córrer"/>
     <list-item v="portar"/>
     <list-item v="passar"/>
     <list-item v="tornar"/>
@@ -2622,112 +2624,40 @@
 </def-macro>
 
 <def-macro n="f_proclise" npar="1">
-    <choose>
-        <when> 
-            <test>
-                <or>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="prn.tn"/>
-                    </equal>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="rel"/>
-                    </equal>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="adv.itg"/>
-                    </equal>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="cnjcoo"/>
-                    </equal>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="predet"/>
-                    </equal>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="prn.itg"/>
-                    </equal>
-                    <equal>
-                        <clip pos="1" side="sl" part="categoria"/>
-                        <lit-tag v="cnjsub"/>
-                    </equal>
-                    
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="não"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="nunca"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="jamais"/>
-                    </equal>
-                    <equal caseless="yes" >
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="ninguém"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="nada"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="agora"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="bem"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="mal"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="ainda"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="já"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="sempre"/>
-                    </equal>
-                    <equal caseless="yes" >
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="sï¿½"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="talvez"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="também"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="também_não"/>
-                    </equal>
-                    <equal caseless="yes">
-                        <clip pos="1" side="tl" part="lem"/>
-                        <lit v="assim"/>
-                    </equal>
-                </or>
-            </test>
-            <let>
-                <var n="proclise"/>
-                <lit v="true"/>
-            </let>
-        </when>
-    </choose>                
+  <choose>
+    <when>
+      <test><or>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="prn.tn"/></equal>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="rel"/></equal>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="adv.itg"/></equal>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="cnjcoo"/></equal>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="predet"/></equal>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="prn.itg"/></equal>
+        <equal><clip pos="1" side="sl" part="categoria"/><lit-tag v="cnjsub"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="non"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="nunca"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="xamais"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="mesmo"/></equal>
+        <equal caseless="yes" ><clip pos="1" side="tl" part="lem"/><lit v="ninguén"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="nada"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="agora"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="ben"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="mal"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="aínda"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="xa"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="sempre"/></equal>
+        <equal caseless="yes" ><clip pos="1" side="tl" part="lem"/><lit v="sín"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="talvez"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="tambén"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="tambén non"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="axiña"/></equal>
+        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="aquí"/></equal></or>
+      </test>
+      <let><var n="proclise"/><lit v="true"/></let>
+    </when>
+  </choose>
 </def-macro>
+
 
 <def-macro n="activagostar" npar="1">
     <let>
@@ -3006,21 +2936,12 @@
         <def-macro n="f_outverb2ifi" npar="3"> <!-- comprova si hi ha pronoms que no es tradueixen del catalï¿½ al portuguï¿½s segons en diccionari ("hi" i "en") i envia el verb ifi amb pronom o sense, i al lloc on correspon. -->
             <choose>
                 <when>
-                    <test>
-                        <not>
-                            <equal>
-                                <clip pos="3" side="tl" part="lem"/> <!-- el pronom sï¿½ que tï¿½ traducciï¿½-->
-                                <lit v=""/>
-                            </equal>
-                        </not>
-                    </test>
+<!-- el pronom sï¿½ que tï¿½ traducciï¿½-->
+                    <test><not><equal><clip pos="3" side="tl" part="lem"/> <lit v=""/></equal></not></test>
                     <choose>
                         <when>
                             <test>
-                                <equal>
-                                    <var n="proclise"/>
-                                    <lit v="true"/>
-                                </equal>
+                                <equal><var n="proclise"/><lit v="true"/></equal>
                             </test>
                             <out>
                                 <lu>
@@ -10908,10 +10829,7 @@
           <clip pos="2" side="sl" part="persona"/>
         </equal>
       </test>
-      <let>
-        <clip pos="2" side="tl" part="lem"/>
-        <lit v="chamar"/>
-      </let>
+      <let><clip pos="2" side="tl" part="lem"/><lit v="chamar"/></let>
     </when>
       </choose>
     <out>

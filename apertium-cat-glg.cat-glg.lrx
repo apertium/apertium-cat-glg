@@ -18,6 +18,12 @@
     <match lemma="caminar" tags="vblex.*"><select lemma="andar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="morir" tags="vblex.*"><select lemma="morrer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="agradar" tags="vblex.*"><select lemma="gustar" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="apropar" tags="vblex.*"><select lemma="achegar" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -60,6 +66,7 @@
     <match lemma="on" tags="adv.itg"/>
     <match lemma="ser" tags="vbser.*"><select lemma="estar" tags="vblex.*"/></match>
   </rule>
+
   <rule weight="1.0">
     <match lemma="acabar" tags="vblex.*"><select lemma="acabar" tags="vblex.*"/></match>
   </rule>
@@ -70,5 +77,35 @@
     <match lemma="acabar" tags="vblex.*"><select lemma="rematar" tags="vblex.*"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
+
+
+  <rule weight="1.0">
+    <match lemma="fer" tags="vblex.*"><select lemma="facer" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="0.3">
+    <match lemma="fer" tags="vblex.*"><select lemma="ir" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer" tags="vblex.*"><select lemma="ir" tags="vblex.*"/></match>
+    <match lemma="bon" tags="adj.*"/>
+    <match lemma="temps" tags="n.*"/>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer" tags="vblex.*"><select lemma="ir" tags="vblex.*"/></match>
+    <or><match lemma="calor" tags="n.*"/>
+        <match lemma="fred" tags="n.*"/></or>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="fer" tags="vblex.*"><select lemma="ir" tags="vblex.*"/></match>
+    <match/>
+    <or><match lemma="calor" tags="n.*"/>
+        <match lemma="fred" tags="n.*"/></or>
+  </rule>
+
+
+
 
 </rules>
