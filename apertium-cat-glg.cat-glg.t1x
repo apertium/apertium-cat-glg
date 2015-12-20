@@ -10262,8 +10262,8 @@
             </out>      
         </action>
     </rule>
-        
-    <rule> <!--REGLA: EN + INF--><!--mirar bï¿½ aixï¿½ (preguntar mï¿½riam)-->
+<!--        
+    <rule comment="REGLA: EN + INF">
         <pattern>
             <pattern-item n="en"/>
             <pattern-item n="infnm"/>
@@ -10291,7 +10291,7 @@
         </action>
     </rule>
 
-    <rule> <!--REGLA: EN + INF + ENCLï¿½TIC-->
+    <rule comment="REGLA: EN + INF + ENCLï¿½TIC">
         <pattern>
             <pattern-item n="en"/>
             <pattern-item n="infnm"/>
@@ -10330,7 +10330,7 @@
         </action>
     </rule>
     
-    <rule> <!--REGLA: EN + INF + ENCLï¿½TIC-->
+    <rule comment="REGLA: EN + INF + ENCLï¿½TIC">
         <pattern>
             <pattern-item n="en"/>
             <pattern-item n="infnm"/>
@@ -10374,6 +10374,7 @@
             </out>
         </action>
     </rule>
+-->
 
     <rule> <!--REGLA: PER + infinitiu = per trobar -> para encontrar-->
         <pattern>
