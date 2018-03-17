@@ -27,3 +27,8 @@ t/update-latest -text
 t/wiki-tests -text
 texts/cuento.cat.txt -text
 texts/cuento.glg.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
