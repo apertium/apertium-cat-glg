@@ -1,0 +1,26 @@
+[1O6De3Fe28KI#0] ^Ella/Ell<prn><tn><p3><f><sg>$ ^és/ser<vbser><pri><p3><sg>$^./.<sent>$
+[/1O6De3Fe28KI]
+[1oXV3KUEIGsE#0] ^Nosaltres/Nosaltres<prn><tn><p1><mf><pl>$ ^som/ser<vbser><pri><p1><pl>$^./.<sent>$
+[/1oXV3KUEIGsE]
+[3wY1SAvCfW9n#0] ^Jo/Jo<prn><tn><p1><mf><sg>$ ^sóc/ser<vbser><pri><p1><sg>$^./.<sent>$
+[/3wY1SAvCfW9n]
+[G1ZMtXeI8GcU#0] ^Et/Et<prn><pro><p2><mf><sg>$ ^vaig/anar<vblex><pri><p1><sg>$ ^donar/donar<vblex><inf>$ ^el/el<det><def><m><sg>/el<prn><pro><p3><m><sg>$ ^llibre/llibre<n><m><sg>$ ^o/o<cnjcoo>$ ^no/no<adv>$^?/?<sent>$
+[/G1ZMtXeI8GcU]
+[SUlgj-zwmB_8#0] ^Ell/Ell<prn><tn><p3><m><sg>$ ^és/ser<vbser><pri><p3><sg>$^./.<sent>$
+[/SUlgj-zwmB_8]
+[_R7LfBtYJwRq#0] ^Aquí/Aquí<adv>$ ^ho/ho<prn><pro><p3><nt>$ ^tens/tenir<vblex><pri><p2><sg>$^./.<sent>$
+[/_R7LfBtYJwRq]
+[jILs2P2mrXZF#0] ^Ahir/Ahir<adv>$ ^et/et<prn><pro><p2><mf><sg>$ ^vaig/anar<vblex><pri><p1><sg>$ ^veure/veure<vblex><inf>$ ^pel/per<pr>+el<det><def><m><sg>$ ^carrer/carrer<n><m><sg>$^./.<sent>$
+[/jILs2P2mrXZF]
+[kR5kcEp_ywA2#0] ^Tu/Tu<prn><tn><p2><mf><sg>$ ^ets/ser<vbser><pri><p2><sg>$^./.<sent>$
+[/kR5kcEp_ywA2]
+[nFQWyQuRszEt#0] ^Ells/Ell<prn><tn><p3><m><pl>$ ^són/ser<vbser><pri><p3><pl>$^./.<sent>$
+[/nFQWyQuRszEt]
+[oiDhGMwoaHoA#0] ^Vaig/Anar<vblex><pri><p1><sg>$ ^a/a<pr>$ ^la/el<det><def><f><sg>/el<prn><pro><p3><f><sg>$ ^platja/platja<n><f><sg>$^./.<sent>$
+[/oiDhGMwoaHoA]
+[s2vZCrFKE4oY#0] ^Vosaltres/Vosaltres<prn><tn><p2><mf><pl>$ ^sou/ser<vbser><pri><p2><pl>$^./.<sent>$
+[/s2vZCrFKE4oY]
+[tCRx7mP9JH8L#0] ^Ningú/Ningú<prn><tn><mf><sg>$ ^em/em<prn><pro><p1><mf><sg>$ ^va/anar<vblex><pri><p3><sg>$ ^dir/dir<vblex><inf>$^./.<sent>$
+[/tCRx7mP9JH8L]
+[wPKZIzF7DwVP#0] ^Elles/Ell<prn><tn><p3><f><pl>$ ^són/ser<vbser><pri><p3><pl>$^./.<sent>$
+[/wPKZIzF7DwVP]

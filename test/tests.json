@@ -1,0 +1,6 @@
+{
+    "cat-glg-pending": {
+        "input": "cat-glg-pending-input.txt",
+        "mode": "cat-glg"
+    }
+}

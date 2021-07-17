@@ -1,0 +1,26 @@
+[1O6De3Fe28KI#0] ^Ell<prn><tn><p3><f><sg>$ ^ser<vbser><pri><p3><sg>$^.<sent>$
+[/1O6De3Fe28KI]
+[1oXV3KUEIGsE#0] ^Nosaltres<prn><tn><p1><mf><pl>$ ^ser<vbser><pri><p1><pl>$^.<sent>$
+[/1oXV3KUEIGsE]
+[3wY1SAvCfW9n#0] ^Jo<prn><tn><p1><mf><sg>$ ^ser<vbser><pri><p1><sg>$^.<sent>$
+[/3wY1SAvCfW9n]
+[G1ZMtXeI8GcU#0] ^Et<prn><pro><p2><mf><sg>$ ^anar<vblex><pri><p1><sg>$ ^donar<vblex><inf>$ ^el<det><def><m><sg>$ ^llibre<n><m><sg>$ ^o<cnjcoo>$ ^no<adv>$^?<sent>$
+[/G1ZMtXeI8GcU]
+[SUlgj-zwmB_8#0] ^Ell<prn><tn><p3><m><sg>$ ^ser<vbser><pri><p3><sg>$^.<sent>$
+[/SUlgj-zwmB_8]
+[_R7LfBtYJwRq#0] ^Aquí<adv>$ ^ho<prn><pro><p3><nt>$ ^tenir<vblex><pri><p2><sg>$^.<sent>$
+[/_R7LfBtYJwRq]
+[jILs2P2mrXZF#0] ^Ahir<adv>$ ^et<prn><pro><p2><mf><sg>$ ^anar<vblex><pri><p1><sg>$ ^veure<vblex><inf>$ ^per<pr>$ ^el<det><def><m><sg>$ ^carrer<n><m><sg>$^.<sent>$
+[/jILs2P2mrXZF]
+[kR5kcEp_ywA2#0] ^Tu<prn><tn><p2><mf><sg>$ ^ser<vbser><pri><p2><sg>$^.<sent>$
+[/kR5kcEp_ywA2]
+[nFQWyQuRszEt#0] ^Ell<prn><tn><p3><m><pl>$ ^ser<vbser><pri><p3><pl>$^.<sent>$
+[/nFQWyQuRszEt]
+[oiDhGMwoaHoA#0] ^Anar<vblex><pri><p1><sg>$ ^a<pr>$ ^el<det><def><f><sg>$ ^platja<n><f><sg>$^.<sent>$
+[/oiDhGMwoaHoA]
+[s2vZCrFKE4oY#0] ^Vosaltres<prn><tn><p2><mf><pl>$ ^ser<vbser><pri><p2><pl>$^.<sent>$
+[/s2vZCrFKE4oY]
+[tCRx7mP9JH8L#0] ^Ningú<prn><tn><mf><sg>$ ^em<prn><pro><p1><mf><sg>$ ^anar<vblex><pri><p3><sg>$ ^dir<vblex><inf>$^.<sent>$
+[/tCRx7mP9JH8L]
+[wPKZIzF7DwVP#0] ^Ell<prn><tn><p3><f><pl>$ ^ser<vbser><pri><p3><pl>$^.<sent>$
+[/wPKZIzF7DwVP]

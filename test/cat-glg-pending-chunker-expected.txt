@@ -1,0 +1,26 @@
+[1O6De3Fe28KI#0] ^Prpers<prn><tn><p3><f><sg>$ ^ser<vbser><pri><p3><sg>$^.<sent>$
+[/1O6De3Fe28KI]
+[1oXV3KUEIGsE#0] ^Prpers<prn><tn><p1><mf><pl>$ ^ser<vbser><pri><p1><pl>$^.<sent>$
+[/1oXV3KUEIGsE]
+[3wY1SAvCfW9n#0] ^Prpers<prn><tn><p1><mf><sg>$ ^ser<vbser><pri><p1><sg>$^.<sent>$
+[/3wY1SAvCfW9n]
+[G1ZMtXeI8GcU#0] ^dar<vblex><ifi><p1><sg>+Prpers<prn><enc><p2><mf><sg>$ ^o<det><def><m><sg>$ ^libro<n><m><sg>$ ^ou<cnjcoo>$ ^non<adv>$^?<sent>$
+[/G1ZMtXeI8GcU]
+[SUlgj-zwmB_8#0] ^Prpers<prn><tn><p3><m><sg>$ ^ser<vbser><pri><p3><sg>$^.<sent>$
+[/SUlgj-zwmB_8]
+[_R7LfBtYJwRq#0] ^Aquí<adv>$ ^prpers<prn><pro><p3><nt>$ ^ter<vblex><pri><p2><sg>$^.<sent>$
+[/_R7LfBtYJwRq]
+[jILs2P2mrXZF#0] ^Onte<adv>$ ^ver<vblex><ifi><p1><sg>+prpers<prn><enc><p2><mf><sg>$ ^por<pr>$ ^o<det><def><f><sg>$ ^rúa<n><f><sg>$^.<sent>$
+[/jILs2P2mrXZF]
+[kR5kcEp_ywA2#0] ^Prpers<prn><tn><p2><mf><sg>$ ^ser<vbser><pri><p2><sg>$^.<sent>$
+[/kR5kcEp_ywA2]
+[nFQWyQuRszEt#0] ^Prpers<prn><tn><p3><m><pl>$ ^ser<vbser><pri><p3><pl>$^.<sent>$
+[/nFQWyQuRszEt]
+[oiDhGMwoaHoA#0] ^Ir<vblex><pri><p1><sg>$ ^a<pr>$ ^o<det><def><f><sg>$ ^praia<n><f><sg>$^.<sent>$
+[/oiDhGMwoaHoA]
+[s2vZCrFKE4oY#0] ^Prpers<prn><tn><p2><mf><pl>$ ^ser<vbser><pri><p2><pl>$^.<sent>$
+[/s2vZCrFKE4oY]
+[tCRx7mP9JH8L#0] ^Ningún<prn><tn><m><sg>$ ^prpers<prn><pro><p1><mf><sg>$ ^dicir<vblex><ifi><p3><sg>$^.<sent>$
+[/tCRx7mP9JH8L]
+[wPKZIzF7DwVP#0] ^Prpers<prn><tn><p3><f><pl>$ ^ser<vbser><pri><p3><pl>$^.<sent>$
+[/wPKZIzF7DwVP]

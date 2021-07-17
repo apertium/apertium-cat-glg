@@ -1,0 +1,26 @@
+[1O6De3Fe28KI#0] ^Ell<prn><tn><p3><f><sg>/Prpers<prn><tn><p3><f><sg>$ ^ser<vbser><pri><p3><sg>/ser<vbser><pri><p3><sg>/estar<vblex><pri><p3><sg>$^.<sent>/.<sent>$
+[/1O6De3Fe28KI]
+[1oXV3KUEIGsE#0] ^Nosaltres<prn><tn><p1><mf><pl>/Prpers<prn><tn><p1><mf><pl>$ ^ser<vbser><pri><p1><pl>/ser<vbser><pri><p1><pl>/estar<vblex><pri><p1><pl>$^.<sent>/.<sent>$
+[/1oXV3KUEIGsE]
+[3wY1SAvCfW9n#0] ^Jo<prn><tn><p1><mf><sg>/Prpers<prn><tn><p1><mf><sg>$ ^ser<vbser><pri><p1><sg>/ser<vbser><pri><p1><sg>/estar<vblex><pri><p1><sg>$^.<sent>/.<sent>$
+[/3wY1SAvCfW9n]
+[G1ZMtXeI8GcU#0] ^Et<prn><pro><p2><mf><sg>/Prpers<prn><pro><p2><mf><sg>$ ^anar<vblex><pri><p1><sg>/ir<vblex><pri><p1><sg>$ ^donar<vblex><inf>/dar<vblex><inf>$ ^el<det><def><m><sg>/o<det><def><m><sg>$ ^llibre<n><m><sg>/libro<n><m><sg>$ ^o<cnjcoo>/ou<cnjcoo>$ ^no<adv>/non<adv>$^?<sent>/?<sent>$
+[/G1ZMtXeI8GcU]
+[SUlgj-zwmB_8#0] ^Ell<prn><tn><p3><m><sg>/Prpers<prn><tn><p3><m><sg>$ ^ser<vbser><pri><p3><sg>/ser<vbser><pri><p3><sg>/estar<vblex><pri><p3><sg>$^.<sent>/.<sent>$
+[/SUlgj-zwmB_8]
+[_R7LfBtYJwRq#0] ^Aquí<adv>/Aquí<adv>/Acó<adv>/Acá<adv>/Aí<adv>$ ^ho<prn><pro><p3><nt>/prpers<prn><pro><p3><nt>$ ^tenir<vblex><pri><p2><sg>/ter<vblex><pri><p2><sg>$^.<sent>/.<sent>$
+[/_R7LfBtYJwRq]
+[jILs2P2mrXZF#0] ^Ahir<adv>/Onte<adv>$ ^et<prn><pro><p2><mf><sg>/prpers<prn><pro><p2><mf><sg>$ ^anar<vblex><pri><p1><sg>/ir<vblex><pri><p1><sg>$ ^veure<vblex><inf>/ver<vblex><inf>$ ^per<pr>/por<pr>/para<pr>$ ^el<det><def><m><sg>/o<det><def><m><sg>$ ^carrer<n><m><sg>/rúa<n><f><sg>$^.<sent>/.<sent>$
+[/jILs2P2mrXZF]
+[kR5kcEp_ywA2#0] ^Tu<prn><tn><p2><mf><sg>/Prpers<prn><tn><p2><mf><sg>$ ^ser<vbser><pri><p2><sg>/ser<vbser><pri><p2><sg>/estar<vblex><pri><p2><sg>$^.<sent>/.<sent>$
+[/kR5kcEp_ywA2]
+[nFQWyQuRszEt#0] ^Ell<prn><tn><p3><m><pl>/Prpers<prn><tn><p3><m><pl>$ ^ser<vbser><pri><p3><pl>/ser<vbser><pri><p3><pl>/estar<vblex><pri><p3><pl>$^.<sent>/.<sent>$
+[/nFQWyQuRszEt]
+[oiDhGMwoaHoA#0] ^Anar<vblex><pri><p1><sg>/Ir<vblex><pri><p1><sg>$ ^a<pr>/a<pr>/en<pr>$ ^el<det><def><f><sg>/o<det><def><f><sg>$ ^platja<n><f><sg>/praia<n><f><sg>$^.<sent>/.<sent>$
+[/oiDhGMwoaHoA]
+[s2vZCrFKE4oY#0] ^Vosaltres<prn><tn><p2><mf><pl>/Prpers<prn><tn><p2><mf><pl>$ ^ser<vbser><pri><p2><pl>/ser<vbser><pri><p2><pl>/estar<vblex><pri><p2><pl>$^.<sent>/.<sent>$
+[/s2vZCrFKE4oY]
+[tCRx7mP9JH8L#0] ^Ningú<prn><tn><mf><sg>/Ningún<prn><tn><m><sg>/Ninguén<prn><tn><m><sg>$ ^em<prn><pro><p1><mf><sg>/prpers<prn><pro><p1><mf><sg>$ ^anar<vblex><pri><p3><sg>/ir<vblex><pri><p3><sg>$ ^dir<vblex><inf>/dicir<vblex><inf>$^.<sent>/.<sent>$
+[/tCRx7mP9JH8L]
+[wPKZIzF7DwVP#0] ^Ell<prn><tn><p3><f><pl>/Prpers<prn><tn><p3><f><pl>$ ^ser<vbser><pri><p3><pl>/ser<vbser><pri><p3><pl>/estar<vblex><pri><p3><pl>$^.<sent>/.<sent>$
+[/wPKZIzF7DwVP]
