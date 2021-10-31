@@ -28,7 +28,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).prefs.rlx.bin	\
 	$(PREFIX2).pre2017_prefs.rlx.bin \
 	$(PREFIX2).autopgen.bin	\
-	$(PREFIX2).t1x.bin
+	$(PREFIX2).t1x.bin	\
+ 	prefs/$(PREFIX2).xml
 
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -174,7 +175,7 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX2).t1x	\
 		modes.xml	\
-		$(PREFIX1).preferences.xml
+		$(PREFIX2).preferences.xml
 
 ###############################################################################
 ## Installation
