@@ -213,11 +213,11 @@
         <file name="apertium-cat-glg.glg-cat.t1x"/>
         <file name="glg-cat.t1x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="glg-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x" debug-suff="intergen">
-        <file name="glg-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="glg-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="glg-cat.autopgen.bin"/>
@@ -398,11 +398,14 @@
         <file name="apertium-cat-glg.glg-cat.t1x"/>
         <file name="glg-cat.t1x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="glg-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x" debug-suff="intergen">
-        <file name="glg-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="glg-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="glg-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="glg-cat.autopgen.bin"/>
