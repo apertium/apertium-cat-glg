@@ -10,6 +10,8 @@ PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
+TARGETS_PREFS = prefs/$(PREFIX2).xml
+
 TARGETS_COMMON =		\
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1).prob		\
@@ -190,7 +192,7 @@ apertium_cat_glg_DATA=	\
 	$(BASENAME).$(PREFIX2).t1x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1).mode
+noinst_DATA=modes/$(PREFIX1).mode $(TARGETS_PREFS)
 
 install-data-local: install-modes
 	$(MKDIR_P) $(DESTDIR)$(apertium_modesdir)/../prefs

@@ -3,13 +3,11 @@
 
   <!-- cat → glg -->
 
-  <mode name="cat-glg" install="yes">
+  <mode name="cat-glg" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="cat-glg.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-glg.rlx.bin"/>
       </program>
@@ -30,172 +28,19 @@
       <program name="lt-proc $1">
         <file name="cat-glg.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="cat-glg.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="cat-glg-dgen" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cat-glg.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="cat-glg.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-cat-glg.cat-glg.t1x"/>
-        <file name="cat-glg.t1x.bin"/>
-      </program>
-      <program name="lt-proc -d">
-        <file name="cat-glg.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-morph" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-disam" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-tagger" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cat-glg.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-pretransfer" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cat-glg.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-biltrans" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cat-glg.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="cat-glg.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-lex" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cat-glg.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="cat-glg.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m -t">
-        <file name="cat-glg.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="cat-glg-transfer" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="cat-glg.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="cat-glg.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="cat-glg.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="cat-glg.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="cat-glg.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b -t">
-        <file name="apertium-cat-glg.cat-glg.t1x"/>
-        <file name="cat-glg.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
   <!-- glg → cat -->
 
-  <mode name="glg-cat" install="no">
+  <mode name="glg-cat" install="no" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="glg-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="glg-cat.rlx.bin"/>
       </program>
@@ -216,158 +61,11 @@
       <program name="lt-proc $1 -b">
         <file name="glg-cat.autogen.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="glg-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="glg-cat.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-dgen" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="glg-cat.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="glg-cat.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-cat-glg.glg-cat.t1x"/>
-        <file name="glg-cat.t1x.bin"/>
-      </program>
-      <program name="lt-proc -d">
-        <file name="glg-cat.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-morph" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-disam" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-tagger" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="glg-cat.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-pretransfer" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="glg-cat.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-biltrans" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="glg-cat.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="glg-cat.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-lex" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="glg-cat.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="glg-cat.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="glg-cat.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="glg-cat-transfer" install="no">
-    <pipeline>
-      <program name="lt-proc -w">
-        <file name="glg-cat.automorf.bin"/>
-      </program>
-
-
-      <program name="cg-proc -w">
-        <file name="glg-cat.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="glg-cat.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="glg-cat.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b -t">
-        <file name="apertium-cat-glg.glg-cat.t1x"/>
-        <file name="glg-cat.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -379,8 +77,6 @@
       <program name="lt-proc -w">
         <file name="glg-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="glg-cat.rlx.bin"/>
       </program>
@@ -404,7 +100,7 @@
       <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="glg-cat.pre2017_prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="glg-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
